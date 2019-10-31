@@ -1,0 +1,137 @@
+<div class="layui-card layadmin-header">
+    <div class="layui-breadcrumb" lay-filter="breadcrumb">
+        <a lay-href="">
+            主页
+        </a>
+        <a>
+            <cite>
+                系统用户
+            </cite>
+        </a>
+        <a>
+            <cite>
+                用户列表
+            </cite>
+        </a>
+        
+
+                        
+    </div>
+</div>
+<div class="layui-fluid">
+    <div class="layui-card layui-anim layui-anim-upbit">
+        <div class="layui-card-body">
+            <div id="layui-table-toolbar" class="layui-form" lay-filter="table-toolbar-filter">
+                <div class="layui-inline">
+                    <label class="layui-form-label">手机</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="email" placeholder="请输入" autocomplete="off" class="layui-input"/>
+                    </div>
+                </div>
+                <div class="layui-inline">
+                    <label class="layui-form-label">角色</label>
+                    <div class="layui-input-block" id="select-group">
+                    </div>
+                </div>
+                <button class="layui-btn table-search-btn" lay-submit lay-filter="table-search-btn">
+                    <i class="layui-icon layui-icon-search layuiadmin-button-btn"></i>
+                </button>
+                <button class="layui-btn layui-btn-normal layui-table-add-btn">
+                    添加系统用户
+                </button>
+            </div>
+
+            <table id="layui-table" lay-filter="layui-table-filter" lay-url="system/aduser/index"></table>
+            
+        </div>
+    </div>
+</div>
+
+<div class="layui-input-block">
+   
+</div>
+
+<script id="select-group-tpl" type="text/html">
+    <select name="group">
+        <option value="0">全部角色</option>
+        {{#  layui.each(d, function(index, item){ }}
+            <option value="{{item.id}}">{{item.name}}</option>
+        {{#       })      }}
+    </select>
+</script>
+
+<script type="text/html" id="buttonTpl">
+  {{#  if(d.check == true){ }}
+    <button class="layui-btn layui-btn-xs">已审核</button>
+  {{#  } else { }}
+    <button class="layui-btn layui-btn-primary layui-btn-xs">未审核</button>
+  {{#  } }}
+</script>
+<script type="text/html" id="table-edit-btns">
+    <a class="layui-btn layui-btn-normal layui-btn-xs" lay-event="edit"><i class="layui-icon layui-icon-edit"></i>编辑</a>
+    <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del"><i class="layui-icon layui-icon-delete"></i>删除</a>
+</script>
+
+
+<script>
+layui.use(['admin', 'table','myUtils', 'form'], function(){
+  var $ = layui.$
+  ,tableHelper = layui.myUtils.tableHelper
+
+
+var _group;
+
+layui.admin.req({
+    url:"system/aduser/getGroupList",
+    done:function (res) {
+        _group = res.data;
+        layui.laytpl($('#select-group-tpl').html()).render(res.data, function (html) {
+            $('#select-group').html(html);
+            layui.form.render(null, 'table-toolbar-filter');
+        });
+    }
+})
+
+ tableHelper({cols: [[
+        {field: 'id', width: 80, title: 'ID', sort: true, readonly:true},
+        {field: 'mobile', title: '手机'},
+        {field: 'nickname', title: '姓名'},
+        {field: 'role_name', title: '角色', edit:false},
+        {field: 'role_id', title: '角色', editformat:function (d,r,c) {
+            var html = '<select name="role_id">';
+            $.each(_group, function(index, val) {
+                var selected = val.id==d.role_id?'selected':'';
+                html+='<option value="'+val.id+'" '+selected+'>'+val.name+'</option>';
+            });
+            html+='</select>';
+            return html;
+        }, hide:true},
+        {field: 'status', title: '状态', templet:function (d) {
+            return d.status==0?'正常':'<span style="color:#FF5722;">禁止</span>';
+        }, editformat:function (d,r,c) {
+            var checked = d.status==0?"checked":"";
+            return '<input type="checkbox" name="status" value="0" lay-skin="switch" lay-text="正常|禁止" '+checked+'>';
+        }},
+        {field: 'remark', title: '备注'},
+        {field: 'last_login_time', title: '最后登陆时间', edit:false},
+        {field: 'last_login_ip', title: '最后登陆IP', edit:false},
+        {title: '操作', align: 'center', fixed: 'right', edit:false, toolbar: '#table-edit-btns'}
+    ]],
+        done: function(res, pageCur, total){
+            
+        },
+        active:{
+            'edit':function(rowsData){
+              layui.table.editForm(this, rowsData, 'system/aduser/edit');
+            },
+            'del':function () {
+                layui.table.delForm(this, 'system/aduser/del');
+            },
+            'add':function () {
+                layui.table.addForm(this, 'system/aduser/add');
+            }
+        }
+    });    
+    
+});
+</script>

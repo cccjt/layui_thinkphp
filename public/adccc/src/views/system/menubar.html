@@ -1,0 +1,458 @@
+<style type="text/css"></style>
+<div class="layui-card layadmin-header">
+    <div class="layui-breadcrumb" lay-filter="breadcrumb">
+        <a lay-href="">
+            主页
+        </a>
+        <a>
+            <cite>
+                系统设置
+            </cite>
+        </a>
+        <a>
+            <cite>
+                菜单配置
+            </cite>
+        </a>
+    </div>
+</div>
+<div class="layui-fluid">
+    <div class="layui-card layui-anim layui-anim-upbit">
+        <div class="layui-card-body ">
+            <div id="layui-table-toolbar" lay-filter="layui-table-toolbar">
+                <button class="layui-btn addmenu">
+                    <i class="layui-icon layui-icon-add-circle-fine"></i>
+                    添加顶级菜单
+                    <i class="iconfont aliicon-weixingongzhonghao"></i>
+                </button>
+            </div>
+            <table id="layui-table" lay-filter="layui-table-filter" lay-url="system/menu/index"></table>
+            <script type="text/html" id="table-edit-btns">
+                <a class="layui-btn layui-btn-default layui-btn-xs" lay-event="add"><i class="layui-icon layui-icon-add"></i>添加子菜单</a>
+                <a class="layui-btn layui-btn-normal layui-btn-xs" lay-event="edit"><i class="layui-icon layui-icon-edit"></i>编辑</a>
+                <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del"><i class="layui-icon layui-icon-delete"></i>删除</a>
+            </script>
+            <script type="text/html" id="add-menubar-tpl">
+                <div class="layui-form" lay-filter="layui-form-filter">
+                      <div class="layui-form-item">
+                          <label class="layui-form-label">菜单名称</label>
+                          <div class="layui-input-block">
+                              <input type="text" name="title" lay-verify="required" value="{{d.title||''}}" class="layui-input">
+                          </div>
+                      </div>
+                      <div class="layui-form-item">
+                          <label class="layui-form-label">跳转页面</label>
+                          <div class="layui-input-block">
+                              <input type="text" name="jump" value="{{d.jump||''}}" class="layui-input" placeholder="留空表示菜单组">
+                          </div>
+                      </div>
+                      <div class="layui-form-item">
+                          <label class="layui-form-label">权限验证</label>
+                          <div class="layui-input-block">
+                              <select class="select-roles" lay-verify="required" name="role" value="{{d.role||''}}">
+                                  
+                              </select>
+                          </div>
+                      </div>
+                      <div class="layui-form-item">
+                          <label class="layui-form-label">排序</label>
+                          <div class="layui-input-block">
+                              <input type="text" name="sort" lay-verify="required" value="{{d.sort||100}}" class="layui-input">
+                          </div>
+                      </div>
+                      <div class="layui-form-item">
+                        <label class="layui-form-label">图标</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="icon" value="{{d.icon||''}}" class="layui-input icon">
+                        </div>
+                      </div>
+                      <div class="layui-form-item" id="icons"></div>
+                      <input type="hidden" name="action"  value="{{d.act}}" />
+                      <input type="hidden" name="id"  value="{{d.id||''}}" />
+                      <input type="hidden" name="url" value="system/menu/edit" />
+                      <div class="layui-editform-footer">
+                          <button type="button" class="layui-btn" lay-submit lay-filter="layui-editform-subbtn">
+                              提交
+                          </button>
+                          <button type="button" class="layui-btn layui-btn-primary edit-form-close">
+                              关闭
+                          </button>
+                      </div>
+                  </div>
+            </script>
+            <script type="text/html" id="add-menubarsub-tpl">
+                <div class="layui-form" lay-filter="layui-form-filter">
+                      <div class="layui-form-item">
+                          <label class="layui-form-label">父菜单名称</label>
+                          <div class="layui-input-block">
+                              <input type="text" disabled="disabled" value="{{d.title}}" class="layui-input">
+                          </div>
+                      </div>
+
+                      <div class="layui-form-item">
+                          <label class="layui-form-label">菜单名称</label>
+                          <div class="layui-input-block">
+                              <input type="text" name="title" lay-verify="required" value="" class="layui-input">
+                          </div>
+                      </div>
+                      <div class="layui-form-item">
+                          <label class="layui-form-label">前端跳转</label>
+                          <div class="layui-input-block">
+                              <input type="text" name="jump" lay-verify="required" value="" class="layui-input">
+                          </div>
+                      </div>
+                      <div class="layui-form-item">
+                          <label class="layui-form-label">权限验证</label>
+                          <div class="layui-input-block">
+                              <select class="select-roles" lay-verify="required" name="role" value="">
+                                  
+                              </select>
+                          </div>
+                      </div>
+                      <div class="layui-form-item">
+                          <label class="layui-form-label">排序</label>
+                          <div class="layui-input-block">
+                              <input type="text" name="sort" lay-verify="required" value="100" class="layui-input">
+                          </div>
+                      </div>
+                      <div class="layui-form-item">
+                        <label class="layui-form-label">图标</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="icon" value="{{d.icon||''}}" class="layui-input icon">
+                        </div>
+                      </div>
+                      <div class="layui-form-item" id="icons"></div>
+                      <input type="hidden" name="action"  value="add" />
+                      <input type="hidden" name="parent"  value="{{d.id}}" />
+                      <input type="hidden" name="url" value="system/menu/edit" />
+                      <div class="layui-editform-footer">
+                          <button type="button" class="layui-btn" lay-submit lay-filter="layui-editform-subbtn">
+                              提交
+                          </button>
+                          <button type="button" class="layui-btn layui-btn-primary edit-form-close">
+                              关闭
+                          </button>
+                      </div>
+                  </div>
+            </script>
+            
+            <script type="text/html" id="edit-menubarsub-tpl">
+                <div class="layui-form" lay-filter="layui-form-filter">
+                      <div class="layui-form-item">
+                          <label class="layui-form-label">父菜单名称</label>
+                          <div class="layui-input-block">
+                              <input type="text" disabled="disabled" value="{{d.parentname}}" class="layui-input">
+                          </div>
+                      </div>
+
+                      <div class="layui-form-item">
+                          <label class="layui-form-label">菜单名称</label>
+                          <div class="layui-input-block">
+                              <input type="text" name="title" lay-verify="required" value="{{d.title}}" class="layui-input">
+                          </div>
+                      </div>
+                      <div class="layui-form-item">
+                          <label class="layui-form-label">前端跳转</label>
+                          <div class="layui-input-block">
+                              <input type="text" name="jump" lay-verify="required" value="{{d.jump}}" class="layui-input">
+                          </div>
+                      </div>
+                      <div class="layui-form-item">
+                          <label class="layui-form-label">权限验证</label>
+                          <div class="layui-input-block">
+                              <select class="select-roles" lay-verify="required" name="role" value="{{d.role}}">
+                                  
+                              </select>
+                          </div>
+                      </div>
+                      <div class="layui-form-item">
+                          <label class="layui-form-label">排序</label>
+                          <div class="layui-input-block">
+                              <input type="text" name="sort" lay-verify="required" value="100" class="layui-input">
+                          </div>
+                      </div>
+                      <div class="layui-form-item">
+                        <label class="layui-form-label">图标</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="icon" value="{{d.icon||''}}" class="layui-input icon">
+                        </div>
+                      </div>
+                      <div class="layui-form-item" id="icons"></div>
+                      <input type="hidden" name="action"  value="edit" />
+                      <input type="hidden" name="parent"  value="{{d.parent}}" />
+                      <input type="hidden" name="id"  value="{{d.id}}" />
+                      <input type="hidden" name="url" value="system/menu/edit" />
+                      <div class="layui-editform-footer">
+                          <button type="button" class="layui-btn" lay-submit lay-filter="layui-editform-subbtn">
+                              提交
+                          </button>
+                          <button type="button" class="layui-btn layui-btn-primary edit-form-close">
+                              关闭
+                          </button>
+                      </div>
+                  </div>
+            </script>
+        </div>
+    </div>
+</div>
+<script>
+    layui.use(['admin', 'table', 'myUtils'], function() {
+        var $ = layui.$,
+            admin = layui.admin,
+            view = layui.view,
+            tableHelper = layui.myUtils.tableHelper,
+            form = layui.form;
+
+
+        $('body').on('click', '.site-doc-icon li', function(res) {
+            var clas = $(this).children('i').attr('class');
+            $('.icon').val(clas);
+            $(this).addClass('cur').siblings('li').removeClass('cur');
+        })
+        $('.addmenu').click(function(event) {
+            menuPop();
+        });
+
+        //添加修改顶级菜单
+        function menuPop(act, data) {
+            var d = {};
+            if (data) {
+                d = data;
+                d['act'] = 'edit';
+            } else {
+                d['act'] = 'add';
+            }
+            var title = '添加顶级菜单';
+            if (act == 'edit') {
+                title = '修改顶级菜单';
+            }
+            admin.popup({
+                id: 'add-menubar',
+                area: '815px',
+                title: title,
+                offset: '50px',
+                shadeClose: false,
+                success: function(layero, index) {
+                  $('body').on('click', '.edit-form-close', function(event) {
+                      layer.close(index); //执行关闭 
+                  });
+                    admin.req({
+                        url: 'system/Menu/getRoleList',
+                        done: function(res) {
+                            var html = '';
+                            $.each(res.data, function(i, v) {
+                                html += '<option value="' + v.action + '">' + v
+                                    .title + ' (' + v.action + ')</option>';
+                            })
+                            $('.select-roles').html(html);
+                            form.render(null, 'layui-form-filter');
+                        }
+                    })
+                    var view = '#' + this.id;
+                    layui.laytpl($('#add-menubar-tpl').html()).render(d, function(html) {
+                        $(view).html(html);
+                    });
+                    layui.view('icons').render('template/icons', {});
+                }
+            });
+        }
+
+        //添加修改子菜单
+        function menuPopSub(act, data) {
+            var title = act=='add'?'添加子菜单':'修改子菜单';
+            admin.popup({
+                id: 'add-menubar',
+                area: '815px',
+                title: title,
+                offset: '50px',
+                shadeClose: false,
+                success: function(layero, index) {
+                 $('body').on('click', '.edit-form-close', function(event) {
+                      layer.close(index); //执行关闭 
+                  });
+                    admin.req({
+                        url: 'system/Menu/getRoleList',
+                        done: function(res) {
+                            var html = '';
+                            $.each(res.data, function(i, v) {
+                                html += '<option value="' + v.action + '">' + v
+                                    .title + ' (' + v.action + ')</option>';
+                            })
+                            $('.select-roles').html(html);
+                            form.render(null, 'layui-form-filter');
+                        }
+                    })
+                    var view = '#' + this.id;
+
+                    var tpl = act=='add'?'#add-menubarsub-tpl':'#edit-menubarsub-tpl';
+                    layui.laytpl($(tpl).html()).render(data, function(html) {
+                        $(view).html(html);
+                    });
+                    layui.view('icons').render('template/icons', {});
+              }})
+          };
+        
+
+        var tableInit = tableHelper({
+            cols: [
+                [{
+                        field: 'id',
+                        title: 'ID',
+                        sort: true,
+                        hide: true,
+                        readonly: true
+                    },
+                    {
+                        field: 'sort',
+                        title: '顺序',
+                        width: 70
+                    },
+                    {
+                        field: 'icon',
+                        title: '图标',
+                        width: 60,
+                        align:'center',
+                        templet: '<div><i class="{{d.icon}}"></i></div>'
+                    },
+                    {
+                        field: 'title',
+                        title: '菜单名称',
+                        event: 'collapse',
+                        templet: function(d) {
+                            if (d.jump) {
+                                return d.title
+                            }
+                            return '<div style="position: relative;\n' +
+                                '    padding: 0 10px 0 20px;cursor:pointer;">' + d.title +
+                                '<i style="left: 0px;"  class="layui-icon layui-colla-icon layui-icon-right"></i></div>'
+                        }
+                    },
+                    {
+                        field: 'jump',
+                        title: '前端跳转'
+                    },
+                    {
+                        field: 'role',
+                        title: '权限验证'
+                    },
+                    {
+                        title: '操作',
+                        align: 'center',
+                        fixed: 'right',
+                        toolbar: '#table-edit-btns'
+                    }
+                ]
+            ],
+            done: function(res, pageCur, total) {
+            },
+            active: {
+                'collapse': function(d,e) {
+                  var parentId = this.id;
+                    if(this.jump){
+                      return false;
+                    }
+                    var $tdObj = $(e);
+                    if($tdObj.find('i').hasClass('layui-icon-down')){
+                        $('.parentid-'+parentId).remove();
+                    }else{
+                        admin.req({
+                            url:'system/menu/index',
+                            type:'post',
+                            data:{parent: parentId},
+                            done:function(res){
+                                var html = '';
+                                $.each(res.data.rows, function(index, val) {
+                                    var icon = val.icon?'<i class="'+val.icon+'"></i>':'';
+                                    html+='<tr class="subtr-'+val.id+' parentid-'+parentId+'">\
+                                            <td align="center"><div class="layui-table-cell">'+val.sort+'</div></td>\
+                                            <td align="center">'+icon+'</td>\
+                                            <td><div class="layui-table-cell" style="padding-left:36px;"> ---- '+val.title+'</div></td>\
+                                            <td><div class="layui-table-cell">'+val.jump+'</div></td>\
+                                            <td><div class="layui-table-cell">'+val.role+'</div></td>\
+                                          <td align="center"><div class="layui-table-cell laytable-cell-1-0-6" data-id="'+val.id+'">\
+                                          <a class="layui-btn layui-btn-normal layui-btn-xs editsubrow"><i class="layui-icon layui-icon-edit"></i>编辑</a>\
+                                          <a class="layui-btn layui-btn-danger layui-btn-xs delsubrow"><i class="layui-icon layui-icon-delete"></i>删除</a>\
+                                          </div>\
+                                        </td></tr>'
+                                });
+                                $tdObj.parent('tr').after(html);
+                            }
+                        })
+                    }
+                    //展开|折叠箭头图标
+                    $(e).find('i.layui-colla-icon').toggleClass("layui-icon-right layui-icon-down");
+                },
+                'edit': function() {
+                    menuPop('edit', this);
+                },
+                'add': function () {
+                    menuPopSub('add', this);
+                },
+                'del': function(d) {
+                    var id = this.id;
+                    layer.confirm('确定删除ID: ' + id + ' ?', {
+                        icon: 3,
+                        title: ''
+                    }, function(index) {
+                        layui.admin.req({
+                            url: '/system/menu/edit',
+                            type: 'post',
+                            data: {
+                                'id': id,
+                                'action': 'del'
+                            },
+                            done: function(data) {
+                                if (data.status != 'error') {
+                                    tableInit.reload();
+                                    layui.layer.msg(data.msg, {
+                                        icon: 1,
+                                        time: 1000
+                                    }, function() {});
+                                } else {
+                                    layui.layer.msg(data.msg, {
+                                        icon: 2,
+                                        time: 2000
+                                    });
+                                }
+                            }
+                        })
+                        layer.close(index);
+                    });
+                }
+            }
+        });
+    $('body').on('click', '.editsubrow', function(event) {
+        var id =$(this).parent('div').data('id');
+        admin.req({
+          url:'system/menu/index',
+          type:'post',
+          data:{'id': id},
+          done:function (res) {
+            console.log(res.data);
+            menuPopSub('edit', res.data);
+          }
+        })
+    });
+
+    $('body').on('click', '.delsubrow', function(event) {
+        var id =$(this).parent('div').data('id');
+        var index = layer.confirm('确定删除?', { icon:3, btn: ['确定','取消']  }, function(){
+          layer.close(index); //关闭修改
+          admin.req({
+            url:'system/menu/edit',
+            type:'post',
+            data:{'id': id, 'action':'del'},
+            done:function (res) {
+               layui.myUtils.Msg(res);
+               if(res.status=='success'){
+                  $('.subtr-'+id).remove();
+               }
+            }
+          })
+      });
+
+        
+    });
+
+    });
+</script>

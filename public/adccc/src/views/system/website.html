@@ -1,0 +1,102 @@
+<style>
+    #logosrc {
+        width: 120px;
+        cursor: pointer;
+    }
+    .logosrc-title {
+        width: 120px;
+        text-align: center;
+        position: absolute;
+        bottom: 0px;
+        background-color: rgba(0,0,0,0.5);
+        color:#fff;
+        display: none;
+    }
+    .layui-input {width: 500px;}
+</style>
+
+<div class="layui-card layadmin-header">
+    <div class="layui-breadcrumb" lay-filter="breadcrumb">
+        <a lay-href="">主页</a>
+        <a><cite>系统设置</cite></a>
+        <a><cite>平台设置</cite></a>
+    </div>
+</div>
+
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-body" pad15>
+
+                    <form class="layui-form" wid100 action="system/Configuration/setConfig">
+                        <script type="text/html" template lay-url="system/Configuration/index" lay-done="layui.data.done(d);">
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">平台名称</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="managename" value="{{d.data.managename}}" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">平台域名</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="domain" lay-verify="url" value="{{d.data.domain}}" class="layui-input">
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">Logo</label>
+                            <div class="layui-input-block">
+                                <div id="">
+                                    <img id="logosrc" src="http://www.tp.com/adccc/src/style/res/layui-logo.jpg" >
+                                    <div class="logosrc-title">点击更换</div>
+                                    <input type="hidden" name="logourl" class="logourl-input" value="{{d.data.logo_url?d.data.logo_url:''}}">
+                                </div>
+                            </div>
+                        </div>
+</script>
+                        <div class="layui-form-item">
+                            <div class="layui-input-block">
+                                <button class="layui-btn" lay-submit lay-filter="dosubmit">确认保存</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    layui.data.done = function(d) {
+        layui.use(['form', 'upload'], function() {
+            var $ = layui.$,
+                upload = layui.upload;
+            $('#logosrc').hover(function() {
+                $('.logosrc-title').show(0);
+            }, function() {
+                $('.logosrc-title').hide(0);
+            })
+            //上传Logo
+            upload.render({
+                url: layui.setter.apiUrl + 'system/SiteConfig/upLoadLogo/',
+                elem: '#logosrc',
+                acceptMime: 'image/*',
+                field: 'image',
+                accept: "images",
+                done: function(res) {
+                    if (res.data.status == 0) {
+                        $('.logourl-input').val(res.data.file_name);
+                        $('#logosrc').attr('src', res.data.img_url);
+                    } else {
+                        layer.msg(res.msg, {
+                            icon: 5
+                        });
+                    }
+                }
+            });
+
+        });
+    }
+</script>

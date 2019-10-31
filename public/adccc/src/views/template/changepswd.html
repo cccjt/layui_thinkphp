@@ -1,0 +1,27 @@
+<form class="layui-form editform" lay-filter="layui-editform-filter">
+    <div class="layui-form-item">
+        <label class="layui-form-label">
+            新密码
+        </label>
+        <div class="layui-input-inline">
+            <input type="password" name="newpassword" lay-verify="password" autocomplete="off" class="layui-input"/>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">
+            再次输入
+        </label>
+        <div class="layui-input-inline">
+            <input type="password" name="reppassword" lay-verify="password" autocomplete="off" class="layui-input"/>
+        </div>
+    </div>
+
+    <div class="layui-editform-footer">
+        <button type="button" class="layui-btn" lay-submit lay-filter="layui-changepswd-subbtn">
+            提交
+        </button>
+        <button type="button" class="layui-btn layui-btn-primary edit-form-close">
+            关闭
+        </button>
+    </div>
+</form>

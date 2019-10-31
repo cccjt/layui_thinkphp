@@ -1,0 +1,78 @@
+<div class="layui-form editform" lay-filter="layui-editform-filter">
+    <script type="text/html" template>
+    {{#   if(d.params.action=='edit'){                                                                                    }}
+    {{#          layui.each(d.params.col[0], function(index, item){                              }}
+        
+    {{#              if(item.edit!==false){                                                         }}
+                
+                <div class="layui-form-item">
+                  <label class="layui-form-label">{{item.title}}</label>
+                  <div class="layui-input-inline">
+    {{#                     if(item.editformat){    }}
+    {{#                        if( typeof(item.editformat)==='function'){                          }}
+                                  {{item.editformat(d.params.val, d.params.rowsData, d.params.col[0])}}
+    {{#                        }else{                                                              }}
+                                  {{layui.$(item.editformat).html()}}                              
+    {{#                        }                                                                  }}
+                         
+    {{#                     }else{                                                            }}
+        
+                      <input type="text" name="{{item.field}}" 
+                      {{# if(item.readonly){ }}
+                          readonly="readonly" class="layui-disabled layui-input" 
+                      {{# } }}
+                       value="{{ d.params.val[item.field] || '' }}" autocomplete="off" class="layui-input" />
+    {{#                     }                                                                    }}
+                  </div>
+                </div>
+
+    {{#            }                                                                                  }}
+    {{#        })                                                                                     }}
+
+    {{#  }else{                                                                          }}
+
+
+    {{#      layui.each(d.params.col[0], function(index, item){                              }}
+        
+    {{#              if(item.edit!==false && item.title!='ID'){                                                         }}        
+            <div class="layui-form-item">
+              <label class="layui-form-label">{{item.title}}</label>
+              <div class="layui-input-inline">
+
+    {{#                     if(item.editformat){    }}
+    {{#                        if( typeof(item.editformat)==='function'){                          }}
+                                  {{item.editformat(d.params.val, d.params.rowsData, d.params.col[0])}}
+    {{#                        }else{                                                              }}
+                                  {{layui.$(item.editformat).html()}}                              
+    {{#                        }                                                                  }}
+                         
+    {{#                     }else{                                                            }}
+                
+                  <input type="text" name="{{item.field}}" 
+                  {{#  if(item.field!='remark'){    }}
+                    lay-verify="required"
+                  {{#  }    }}
+                    class="layui-input" 
+                    value="" autocomplete="off" 
+                    class="layui-input" />
+    {{#                     }                                                                    }}
+              </div>
+            </div>
+    {{#              }                                                                                  }}
+        
+    {{#   })                                                                                     }}
+    {{#            }                                                                                  }}
+          
+          <input type="hidden" name="aciont" value="{{d.params.action}}">
+          <input type="hidden" name="url" value="{{d.params.url}}">
+
+            </script>
+    <div class="layui-editform-footer">
+        <button type="button" class="layui-btn" lay-submit lay-filter="layui-editform-subbtn">
+            提交
+        </button>
+        <button type="button" class="layui-btn layui-btn-primary edit-form-close">
+            关闭
+        </button>
+    </div>
+</div>

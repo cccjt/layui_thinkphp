@@ -1,0 +1,87 @@
+<div class="layui-card layadmin-header">
+    <div class="layui-breadcrumb" lay-filter="breadcrumb">
+        <a lay-href="">
+            主页
+        </a>
+        <a>
+            <cite>
+                系统设置
+            </cite>
+        </a>
+        <a>
+            <cite>
+                角色配置
+            </cite>
+        </a>
+    </div>
+</div>
+<div class="layui-fluid">
+    <div class="layui-card layui-anim layui-anim-upbit">
+        <div class="layui-card-body ">
+          <div id="layui-table-toolbar" lay-filter="layui-table-toolbar">
+                    
+              <button class="layui-btn" lay-href="template/editrole/action=add">
+                  <i class="layui-icon layui-icon-add-circle-fine"></i>
+                  添加角色
+              </button>
+          </div>
+
+            <table id="layui-table" lay-filter="layui-table-filter" lay-url="system/group/index"></table>
+            <script type="text/html" id="table-edit-btns">
+                <a class="layui-btn layui-btn-normal layui-btn-xs" lay-event="edit"><i class="layui-icon layui-icon-edit"></i>编辑</a>
+                <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del"><i class="layui-icon layui-icon-delete"></i>删除</a>
+            </script>
+        </div>
+    </div>
+</div>
+<script>
+layui.use(['admin', 'table','myUtils'], function(){
+  var $ = layui.$
+  ,admin = layui.admin
+  ,view = layui.view
+  ,tableHelper = layui.myUtils.tableHelper
+  ,form = layui.form;
+  
+  
+  var tableInit = tableHelper({cols: [[
+      {field: 'id', width: 80, title: 'ID', sort: true, readonly:true},
+      {field: 'name', title: '用户组'},
+      {field: 'remark', title: '备注',width:'20%'},
+      {field: 'titles', title: '权限表', width:'50%', templet: function (d) {
+          return $.parseJSON(d.titles) || '';
+      }},
+      {title: '操作', align: 'center', fixed: 'right', toolbar: '#table-edit-btns'}
+    ]],
+       done: function(res, pageCur, total){
+             console.log(res);
+       },
+       active:{
+           'edit':function(){
+              location.hash = '/system/editrole/action=edit/id='+this.id;
+           },
+           'del':function (d) {
+              var id = this.id;
+              layer.confirm('确定删除ID: '+id+' ?', {icon: 3, title:''}, function(index){
+                layui.admin.req({
+                   url:'/system/group/editGroup',
+                   type:'post',
+                   data:{'id':id, 'action':'del'},
+                   done:function (data) {
+                      console.log(data);
+                      if(data.status!='error'){
+                          tableInit.reload();
+                          layui.layer.msg(data.msg, {icon: 1,time: 1000 }, function(){
+                          });
+                      }else{
+                          layui.layer.msg(data.msg, {icon: 2,time: 2000 });
+                      }
+                   }
+                })
+                layer.close(index);
+              });   
+           }
+       }
+    });
+    
+});
+</script>

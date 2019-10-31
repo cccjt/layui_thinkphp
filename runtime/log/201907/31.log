@@ -1,0 +1,634 @@
+---------------------------------------------------------------
+[2019-07-31T16:29:14+08:00] 127.0.0.1 GET www.tp.com/backend/v1//Init/getLeftMenu?v=1.2.1%20pro&access_token=
+[运行时间：0.018951s] [吞吐率：52.77req/s] [内存消耗：1,705.67kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'Init',
+    'function' => 'getLeftMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/admin/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'Init',
+  'function' => 'getLeftMenu',
+)
+---------------------------------------------------------------
+[2019-07-31T16:29:14+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.121132s] [吞吐率：8.26req/s] [内存消耗：3,024.60kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/admin/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055205s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.030385s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.014159s ]
+---------------------------------------------------------------
+[2019-07-31T16:29:20+08:00] 127.0.0.1 GET www.tp.com/backend/
+[运行时间：0.012802s] [吞吐率：78.11req/s] [内存消耗：1,722.03kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]variable type error： array[D:\web\layui_tp\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+[2019-07-31T16:29:36+08:00] 127.0.0.1 GET www.tp.com/backend/
+[运行时间：0.025898s] [吞吐率：38.61req/s] [内存消耗：1,722.23kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]variable type error： array[D:\web\layui_tp\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+[2019-07-31T16:29:46+08:00] 127.0.0.1 GET www.tp.com/backend/index.php
+[运行时间：0.022470s] [吞吐率：44.50req/s] [内存消耗：1,722.03kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]variable type error： array[D:\web\layui_tp\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+[2019-07-31T16:30:28+08:00] 127.0.0.1 GET www.tp.com/backend/index.php
+[运行时间：0.023612s] [吞吐率：42.35req/s] [内存消耗：1,722.23kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]variable type error： array[D:\web\layui_tp\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+[2019-07-31T16:30:37+08:00] 127.0.0.1 GET www.tp.com/backend/admin
+[运行时间：0.014286s] [吞吐率：70.00req/s] [内存消耗：1,725.94kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-07-31T16:30:57+08:00] 127.0.0.1 GET www.tp.com/backend/Index
+[运行时间：0.014662s] [吞吐率：68.20req/s] [内存消耗：1,722.74kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]variable type error： array[D:\web\layui_tp\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+[2019-07-31T16:33:03+08:00] 127.0.0.1 GET www.tp.com/backend/Index
+[运行时间：0.016086s] [吞吐率：62.17req/s] [内存消耗：1,726.53kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]variable type error： array[D:\web\layui_tp\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+[2019-07-31T16:36:24+08:00] 127.0.0.1 GET www.tp.com/backend/Index
+[运行时间：0.023569s] [吞吐率：42.43req/s] [内存消耗：1,726.53kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]variable type error： array[D:\web\layui_tp\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+[2019-07-31T16:37:00+08:00] 127.0.0.1 GET www.tp.com/index.php
+[运行时间：0.012246s] [吞吐率：81.66req/s] [内存消耗：1,684.26kb] [文件加载：60]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-07-31T16:37:12+08:00] 127.0.0.1 GET www.tp.com/
+[运行时间：0.011877s] [吞吐率：84.20req/s] [内存消耗：1,684.26kb] [文件加载：60]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-07-31T16:37:15+08:00] 127.0.0.1 GET www.tp.com/backend/v1//Init/getLeftMenu?v=1.2.1%20pro&access_token=
+[运行时间：0.011877s] [吞吐率：84.20req/s] [内存消耗：1,709.24kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'Init',
+    'function' => 'getLeftMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/admin/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'Init',
+  'function' => 'getLeftMenu',
+)
+---------------------------------------------------------------
+[2019-07-31T16:37:16+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.359593s] [吞吐率：2.78req/s] [内存消耗：3,027.41kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/admin/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.305631s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.015767s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.014337s ]
+---------------------------------------------------------------
+[2019-07-31T16:37:21+08:00] 127.0.0.1 GET www.tp.com/backend/
+[运行时间：0.019697s] [吞吐率：50.77req/s] [内存消耗：1,725.62kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]variable type error： array[D:\web\layui_tp\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+[2019-07-31T16:37:27+08:00] 127.0.0.1 GET www.tp.com/
+[运行时间：0.013685s] [吞吐率：73.07req/s] [内存消耗：1,684.34kb] [文件加载：60]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-07-31T16:38:14+08:00] 127.0.0.1 GET www.tp.com/backend/v1/
+[运行时间：0.026404s] [吞吐率：37.87req/s] [内存消耗：1,729.52kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-07-31T16:38:22+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getconfig
+[运行时间：0.012495s] [吞吐率：80.03req/s] [内存消耗：1,752.34kb] [文件加载：64]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getconfig',
+)
+---------------------------------------------------------------
+[2019-07-31T16:38:39+08:00] 127.0.0.1 GET www.tp.com/backend/index
+[运行时间：0.015051s] [吞吐率：66.44req/s] [内存消耗：1,726.33kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]variable type error： array[D:\web\layui_tp\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+[2019-07-31T16:38:45+08:00] 127.0.0.1 GET www.tp.com/backend/base
+[运行时间：0.013584s] [吞吐率：73.62req/s] [内存消耗：1,770.14kb] [文件加载：64]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-07-31T16:39:00+08:00] 127.0.0.1 GET www.tp.com/backend/base/initialize
+[运行时间：0.013560s] [吞吐率：73.75req/s] [内存消耗：1,768.06kb] [文件加载：63]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]variable type error： array[D:\web\layui_tp\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+[2019-07-31T16:39:28+08:00] 127.0.0.1 GET www.tp.com/backend/init/getSysConfig
+[运行时间：0.012632s] [吞吐率：79.16req/s] [内存消耗：1,729.57kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-07-31T16:39:37+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.084826s] [吞吐率：11.79req/s] [内存消耗：3,027.16kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysConfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysConfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028758s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.019229s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.017408s ]
+---------------------------------------------------------------
+[2019-07-31T17:23:19+08:00] 127.0.0.1 GET www.tp.com/index.php
+[运行时间：0.014522s] [吞吐率：68.86req/s] [内存消耗：1,684.26kb] [文件加载：60]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-07-31T17:23:47+08:00] 127.0.0.1 GET www.tp.com/index.php
+[运行时间：0.011306s] [吞吐率：88.45req/s] [内存消耗：1,684.34kb] [文件加载：60]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-07-31T17:23:49+08:00] 127.0.0.1 GET www.tp.com/
+[运行时间：0.013066s] [吞吐率：76.54req/s] [内存消耗：1,684.26kb] [文件加载：60]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-07-31T17:23:50+08:00] 127.0.0.1 GET www.tp.com/
+[运行时间：0.010496s] [吞吐率：95.28req/s] [内存消耗：1,684.34kb] [文件加载：60]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-07-31T17:41:28+08:00] 127.0.0.1 GET www.tp.com/
+[运行时间：0.018344s] [吞吐率：54.51req/s] [内存消耗：2,055.14kb] [文件加载：69]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-07-31T18:13:22+08:00] 127.0.0.1 GET www.tp.com/favicon.ico
+[运行时间：0.019648s] [吞吐率：50.90req/s] [内存消耗：1,238.59kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-07-31T19:42:48+08:00] 127.0.0.1 GET www.tp.com/favicon.ico
+[运行时间：0.019179s] [吞吐率：52.14req/s] [内存消耗：1,238.59kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php

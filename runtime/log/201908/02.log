@@ -1,0 +1,3971 @@
+---------------------------------------------------------------
+[2019-08-02T15:57:49+08:00] 127.0.0.1 GET www.tp.com/favicon.ico
+[运行时间：0.049394s] [吞吐率：20.25req/s] [内存消耗：1,238.59kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-08-02T17:47:42+08:00] 127.0.0.1 GET www.tp.com/favicon.ico
+[运行时间：0.022393s] [吞吐率：44.66req/s] [内存消耗：1,238.73kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-08-02T17:47:44+08:00] 127.0.0.1 GET www.tp.com/
+[运行时间：0.026604s] [吞吐率：37.59req/s] [内存消耗：2,114.58kb] [文件加载：70]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T17:57:23+08:00] 127.0.0.1 GET www.tp.com/v1/user/loginIn
+[运行时间：0.029439s] [吞吐率：33.97req/s] [内存消耗：1,788.41kb] [文件加载：65]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+---------------------------------------------------------------
+[2019-08-02T18:35:42+08:00] 127.0.0.1 OPTIONS www.tp.com/backend/v1//Init/getLeftMenu?v=1.2.1%20pro&access_token=
+[运行时间：0.021155s] [吞吐率：47.27req/s] [内存消耗：1,710.38kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'Init',
+    'function' => 'getLeftMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'access_token',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'access-control-request-method' => 'GET',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'Init',
+  'function' => 'getLeftMenu',
+)
+---------------------------------------------------------------
+[2019-08-02T18:35:43+08:00] 127.0.0.1 GET www.tp.com/backend/v1//Init/getLeftMenu?v=1.2.1%20pro&access_token=
+[运行时间：0.025007s] [吞吐率：39.99req/s] [内存消耗：1,709.68kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'Init',
+    'function' => 'getLeftMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'Init',
+  'function' => 'getLeftMenu',
+)
+---------------------------------------------------------------
+[2019-08-02T18:35:44+08:00] 127.0.0.1 OPTIONS www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.406836s] [吞吐率：2.46req/s] [内存消耗：3,028.58kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'access_token',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'access-control-request-method' => 'GET',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.346155s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.017235s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.016338s ]
+---------------------------------------------------------------
+[2019-08-02T18:35:44+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.080970s] [吞吐率：12.35req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026213s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.015753s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.014935s ]
+---------------------------------------------------------------
+[2019-08-02T18:35:59+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.086449s] [吞吐率：11.57req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024886s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.016840s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.016230s ]
+---------------------------------------------------------------
+[2019-08-02T18:36:01+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.087314s] [吞吐率：11.45req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024377s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.021997s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.014994s ]
+---------------------------------------------------------------
+[2019-08-02T18:36:02+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.081007s] [吞吐率：12.34req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021452s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.014733s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.014908s ]
+---------------------------------------------------------------
+[2019-08-02T18:36:05+08:00] 127.0.0.1 GET www.tp.com/backend/v1//Init/getLeftMenu?v=1.2.1%20pro&access_token=
+[运行时间：0.019177s] [吞吐率：52.15req/s] [内存消耗：1,709.68kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'Init',
+    'function' => 'getLeftMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'Init',
+  'function' => 'getLeftMenu',
+)
+---------------------------------------------------------------
+[2019-08-02T18:36:05+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.098876s] [吞吐率：10.11req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024272s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.016356s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.015353s ]
+---------------------------------------------------------------
+[2019-08-02T18:40:58+08:00] 127.0.0.1 GET www.tp.com/backend/v1//Init/getLeftMenu?v=1.2.1%20pro&access_token=
+[运行时间：0.043595s] [吞吐率：22.94req/s] [内存消耗：1,709.68kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'Init',
+    'function' => 'getLeftMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'Init',
+  'function' => 'getLeftMenu',
+)
+---------------------------------------------------------------
+[2019-08-02T18:40:59+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.075627s] [吞吐率：13.22req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023732s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.015863s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.015091s ]
+---------------------------------------------------------------
+[2019-08-02T18:40:59+08:00] 127.0.0.1 GET www.tp.com/backend/v1//Init/getLeftMenu?v=1.2.1%20pro&access_token=
+[运行时间：0.016471s] [吞吐率：60.71req/s] [内存消耗：1,709.68kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'Init',
+    'function' => 'getLeftMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'Init',
+  'function' => 'getLeftMenu',
+)
+---------------------------------------------------------------
+[2019-08-02T18:40:59+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.077767s] [吞吐率：12.86req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024761s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.014367s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.014051s ]
+---------------------------------------------------------------
+[2019-08-02T18:41:14+08:00] 127.0.0.1 GET www.tp.com/backend/v1//Init/getLeftMenu?v=1.2.1%20pro&access_token=
+[运行时间：0.034891s] [吞吐率：28.66req/s] [内存消耗：1,709.68kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'Init',
+    'function' => 'getLeftMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'Init',
+  'function' => 'getLeftMenu',
+)
+---------------------------------------------------------------
+[2019-08-02T18:41:14+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.092325s] [吞吐率：10.83req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025033s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.016320s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.016037s ]
+---------------------------------------------------------------
+[2019-08-02T18:41:56+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.095111s] [吞吐率：10.51req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025446s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.017014s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.016404s ]
+---------------------------------------------------------------
+[2019-08-02T18:41:57+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.082370s] [吞吐率：12.14req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026739s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.016702s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.017338s ]
+---------------------------------------------------------------
+[2019-08-02T18:42:09+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.077816s] [吞吐率：12.85req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025451s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.015450s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.014664s ]
+---------------------------------------------------------------
+[2019-08-02T18:42:13+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.087412s] [吞吐率：11.44req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029231s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.017322s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.019328s ]
+---------------------------------------------------------------
+[2019-08-02T18:42:29+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.087246s] [吞吐率：11.46req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024076s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.014179s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.013606s ]
+---------------------------------------------------------------
+[2019-08-02T18:42:45+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.091942s] [吞吐率：10.88req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028777s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.017024s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.017552s ]
+---------------------------------------------------------------
+[2019-08-02T18:43:07+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.083427s] [吞吐率：11.99req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025987s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.015290s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.015491s ]
+---------------------------------------------------------------
+[2019-08-02T18:43:10+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.073736s] [吞吐率：13.56req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025288s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.013248s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.013060s ]
+---------------------------------------------------------------
+[2019-08-02T18:43:20+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.069525s] [吞吐率：14.38req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021863s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.012577s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.012761s ]
+---------------------------------------------------------------
+[2019-08-02T18:43:23+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.079083s] [吞吐率：12.64req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025778s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.015074s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.014665s ]
+---------------------------------------------------------------
+[2019-08-02T18:43:28+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.081328s] [吞吐率：12.30req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025847s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.015036s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.014801s ]
+---------------------------------------------------------------
+[2019-08-02T18:43:30+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.070727s] [吞吐率：14.14req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024057s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.012867s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.012457s ]
+---------------------------------------------------------------
+[2019-08-02T18:43:36+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.081870s] [吞吐率：12.21req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026784s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.016376s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.016392s ]
+---------------------------------------------------------------
+[2019-08-02T18:43:38+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.080017s] [吞吐率：12.50req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024708s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.014954s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.013818s ]
+---------------------------------------------------------------
+[2019-08-02T18:44:41+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.073070s] [吞吐率：13.69req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023596s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.013453s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.012650s ]
+---------------------------------------------------------------
+[2019-08-02T18:44:44+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.072381s] [吞吐率：13.82req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024820s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.014736s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.013801s ]
+---------------------------------------------------------------
+[2019-08-02T18:44:49+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.084206s] [吞吐率：11.88req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028516s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.018059s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.017598s ]
+---------------------------------------------------------------
+[2019-08-02T18:45:09+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.076023s] [吞吐率：13.15req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024588s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.013769s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.013362s ]
+---------------------------------------------------------------
+[2019-08-02T18:45:35+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.071542s] [吞吐率：13.98req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023539s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.014507s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.013962s ]
+---------------------------------------------------------------
+[2019-08-02T18:45:45+08:00] 127.0.0.1 OPTIONS www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.106908s] [吞吐率：9.35req/s] [内存消耗：3,028.58kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'access_token',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'access-control-request-method' => 'GET',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028015s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.015584s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.016751s ]
+---------------------------------------------------------------
+[2019-08-02T18:45:45+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.079428s] [吞吐率：12.59req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027237s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.014726s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.014338s ]
+---------------------------------------------------------------
+[2019-08-02T18:46:00+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.123621s] [吞吐率：8.09req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.075712s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.013910s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.013630s ]
+---------------------------------------------------------------
+[2019-08-02T18:46:02+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.083621s] [吞吐率：11.96req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027115s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.016895s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.016560s ]
+---------------------------------------------------------------
+[2019-08-02T18:46:21+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.081854s] [吞吐率：12.22req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023455s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.016759s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.016739s ]
+---------------------------------------------------------------
+[2019-08-02T18:46:23+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.080816s] [吞吐率：12.37req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025113s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.015395s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.015067s ]
+---------------------------------------------------------------
+[2019-08-02T18:46:34+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.090637s] [吞吐率：11.03req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027049s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.015435s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.015038s ]
+---------------------------------------------------------------
+[2019-08-02T18:46:36+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.074616s] [吞吐率：13.40req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027218s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.014287s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.013532s ]
+---------------------------------------------------------------
+[2019-08-02T18:46:38+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.075307s] [吞吐率：13.28req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022911s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.015234s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.014403s ]
+---------------------------------------------------------------
+[2019-08-02T18:46:45+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.083150s] [吞吐率：12.03req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025352s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.017044s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.016482s ]
+---------------------------------------------------------------
+[2019-08-02T18:46:47+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.071348s] [吞吐率：14.02req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023646s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.014087s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.013165s ]
+---------------------------------------------------------------
+[2019-08-02T18:46:54+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.074033s] [吞吐率：13.51req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021523s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.014879s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.014456s ]
+---------------------------------------------------------------
+[2019-08-02T18:46:55+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.064846s] [吞吐率：15.42req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018904s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.012576s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.011833s ]
+---------------------------------------------------------------
+[2019-08-02T18:46:56+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.075700s] [吞吐率：13.21req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025379s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.014562s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.015837s ]
+---------------------------------------------------------------
+[2019-08-02T18:46:59+08:00] 127.0.0.1 OPTIONS www.tp.com/backend/v1//user/loginIn
+[运行时间：0.023088s] [吞吐率：43.31req/s] [内存消耗：1,785.12kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'access_token',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'access-control-request-method' => 'POST',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'Firebase\JWT\JWT' not found[D:\web\layui_tp\application\common\service\Token.php:35]
+---------------------------------------------------------------
+[2019-08-02T18:47:21+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.086712s] [吞吐率：11.53req/s] [内存消耗：3,027.88kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023723s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.014342s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.013939s ]
+---------------------------------------------------------------
+[2019-08-02T18:47:23+08:00] 127.0.0.1 OPTIONS www.tp.com/backend/v1/user/loginIn
+[运行时间：0.014328s] [吞吐率：69.79req/s] [内存消耗：1,785.12kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8848/admin/index.html',
+  'accept' => '*/*',
+  'access-control-request-headers' => 'access_token',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'origin' => 'http://127.0.0.1:8848',
+  'access-control-request-method' => 'POST',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'Firebase\JWT\JWT' not found[D:\web\layui_tp\application\common\service\Token.php:35]
+---------------------------------------------------------------
+[2019-08-02T18:47:28+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.017938s] [吞吐率：55.75req/s] [内存消耗：1,784.20kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'Firebase\JWT\JWT' not found[D:\web\layui_tp\application\common\service\Token.php:35]
+---------------------------------------------------------------
+[2019-08-02T18:47:28+08:00] 127.0.0.1 GET www.tp.com/favicon.ico
+[运行时间：0.012778s] [吞吐率：78.26req/s] [内存消耗：1,238.70kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-08-02T18:48:20+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.035207s] [吞吐率：28.40req/s] [内存消耗：1,784.78kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'Firebase\JWT\JWT' not found[D:\web\layui_tp\application\common\service\Token.php:35]
+---------------------------------------------------------------
+[2019-08-02T18:48:24+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.015692s] [吞吐率：63.73req/s] [内存消耗：1,784.78kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'Firebase\JWT\JWT' not found[D:\web\layui_tp\application\common\service\Token.php:35]
+---------------------------------------------------------------
+[2019-08-02T18:51:55+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.037771s] [吞吐率：26.48req/s] [内存消耗：1,784.78kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'Firebase\JWT\JWT' not found[D:\web\layui_tp\application\common\service\Token.php:35]
+---------------------------------------------------------------
+[2019-08-02T18:54:13+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.029265s] [吞吐率：34.17req/s] [内存消耗：1,784.79kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'Firebase\JWT\JWT' not found[D:\web\layui_tp\application\common\service\Token.php:35]
+---------------------------------------------------------------
+[2019-08-02T18:54:14+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.015177s] [吞吐率：65.89req/s] [内存消耗：1,784.79kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'Firebase\JWT\JWT' not found[D:\web\layui_tp\application\common\service\Token.php:35]
+---------------------------------------------------------------
+[2019-08-02T18:55:18+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.014461s] [吞吐率：69.15req/s] [内存消耗：1,784.79kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'Firebase\JWT\JWT' not found[D:\web\layui_tp\application\common\service\Token.php:35]
+---------------------------------------------------------------
+[2019-08-02T18:55:19+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.015017s] [吞吐率：66.59req/s] [内存消耗：1,784.79kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'Firebase\JWT\JWT' not found[D:\web\layui_tp\application\common\service\Token.php:35]
+---------------------------------------------------------------
+[2019-08-02T18:55:19+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.015032s] [吞吐率：66.52req/s] [内存消耗：1,784.79kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'Firebase\JWT\JWT' not found[D:\web\layui_tp\application\common\service\Token.php:35]
+---------------------------------------------------------------
+[2019-08-02T18:55:20+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.016974s] [吞吐率：58.91req/s] [内存消耗：1,784.79kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'Firebase\JWT\JWT' not found[D:\web\layui_tp\application\common\service\Token.php:35]
+---------------------------------------------------------------
+[2019-08-02T18:55:20+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.015059s] [吞吐率：66.41req/s] [内存消耗：1,784.79kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'Firebase\JWT\JWT' not found[D:\web\layui_tp\application\common\service\Token.php:35]
+---------------------------------------------------------------
+[2019-08-02T18:55:20+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.029078s] [吞吐率：34.39req/s] [内存消耗：1,784.79kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'Firebase\JWT\JWT' not found[D:\web\layui_tp\application\common\service\Token.php:35]
+---------------------------------------------------------------
+[2019-08-02T18:56:41+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.019011s] [吞吐率：52.60req/s] [内存消耗：1,784.95kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'app\common\service\Firebase\JWT\JWT' not found[D:\web\layui_tp\application\common\service\Token.php:35]
+---------------------------------------------------------------
+[2019-08-02T18:56:47+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.014358s] [吞吐率：69.65req/s] [内存消耗：1,784.79kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'Firebase\JWT\JWT' not found[D:\web\layui_tp\application\common\service\Token.php:35]
+---------------------------------------------------------------
+[2019-08-02T18:56:49+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.022846s] [吞吐率：43.77req/s] [内存消耗：1,784.79kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'Firebase\JWT\JWT' not found[D:\web\layui_tp\application\common\service\Token.php:35]
+---------------------------------------------------------------
+[2019-08-02T18:59:39+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.032505s] [吞吐率：30.76req/s] [内存消耗：1,785.28kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'fengqi\Hanzi\Hanzi' not found[D:\web\layui_tp\application\common\service\Token.php:37]
+---------------------------------------------------------------
+[2019-08-02T19:04:01+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.019354s] [吞吐率：51.67req/s] [内存消耗：1,785.27kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'fengqi\Hanzi' not found[D:\web\layui_tp\application\common\service\Token.php:37]
+---------------------------------------------------------------
+[2019-08-02T19:04:07+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.015389s] [吞吐率：64.98req/s] [内存消耗：1,785.28kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'fengqi\Hanzi\Hanzi' not found[D:\web\layui_tp\application\common\service\Token.php:37]
+---------------------------------------------------------------
+[2019-08-02T19:04:11+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.033398s] [吞吐率：29.94req/s] [内存消耗：1,785.28kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'fengqi\Hanzi\Hanzi' not found[D:\web\layui_tp\application\common\service\Token.php:37]
+---------------------------------------------------------------
+[2019-08-02T19:04:17+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.015886s] [吞吐率：62.95req/s] [内存消耗：1,785.22kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'Hanzi' not found[D:\web\layui_tp\application\common\service\Token.php:37]
+---------------------------------------------------------------
+[2019-08-02T19:04:21+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.015076s] [吞吐率：66.33req/s] [内存消耗：1,785.28kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'fengqi\Hanzi\Hanzi' not found[D:\web\layui_tp\application\common\service\Token.php:37]
+---------------------------------------------------------------
+[2019-08-02T19:12:10+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.019550s] [吞吐率：51.15req/s] [内存消耗：1,785.30kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'think\fengqi\Hanzi\Hanzi' not found[D:\web\layui_tp\application\common\service\Token.php:37]
+---------------------------------------------------------------
+[2019-08-02T19:12:16+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.029150s] [吞吐率：34.31req/s] [内存消耗：1,785.28kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'fengqi\Hanzi\Hanzi' not found[D:\web\layui_tp\application\common\service\Token.php:37]
+---------------------------------------------------------------
+[2019-08-02T19:19:32+08:00] 127.0.0.1 GET www.tp.com/favicon.ico
+[运行时间：0.013325s] [吞吐率：75.05req/s] [内存消耗：1,238.73kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-08-02T19:19:32+08:00] 127.0.0.1 GET www.tp.com/index.php
+[运行时间：0.018549s] [吞吐率：53.91req/s] [内存消耗：2,052.41kb] [文件加载：68]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:19:55+08:00] 127.0.0.1 GET www.tp.com/index.php
+[运行时间：0.024540s] [吞吐率：40.75req/s] [内存消耗：4,658.66kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:20:08+08:00] 127.0.0.1 GET www.tp.com/index.php
+[运行时间：0.033847s] [吞吐率：29.54req/s] [内存消耗：4,658.84kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:20:34+08:00] 127.0.0.1 GET www.tp.com/v1/user/loginIn
+[运行时间：0.020761s] [吞吐率：48.17req/s] [内存消耗：4,332.65kb] [文件加载：67]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+---------------------------------------------------------------
+[2019-08-02T19:20:56+08:00] 127.0.0.1 GET www.tp.com/v1/user/loginIn
+[运行时间：0.031765s] [吞吐率：31.48req/s] [内存消耗：1,788.49kb] [文件加载：65]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+---------------------------------------------------------------
+[2019-08-02T19:21:14+08:00] 127.0.0.1 GET www.tp.com/backend/v1/user/loginIn
+[运行时间：0.014986s] [吞吐率：66.73req/s] [内存消耗：1,784.79kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+[ error ] [0]致命错误: Class 'Firebase\JWT\JWT' not found[D:\web\layui_tp\application\common\service\Token.php:39]
+---------------------------------------------------------------
+[2019-08-02T19:21:19+08:00] 127.0.0.1 GET www.tp.com/v1/user/loginIn
+[运行时间：0.016735s] [吞吐率：59.75req/s] [内存消耗：1,788.47kb] [文件加载：65]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+---------------------------------------------------------------
+[2019-08-02T19:22:06+08:00] 127.0.0.1 GET www.tp.com/v1/user/loginIn
+[运行时间：0.026417s] [吞吐率：37.85req/s] [内存消耗：1,788.80kb] [文件加载：65]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'user',
+    'function' => 'loginIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'user',
+  'function' => 'loginIn',
+)
+---------------------------------------------------------------
+[2019-08-02T19:22:16+08:00] 127.0.0.1 GET www.tp.com/backend/
+[运行时间：0.015627s] [吞吐率：63.99req/s] [内存消耗：1,725.94kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]variable type error： array[D:\web\layui_tp\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+[2019-08-02T19:22:21+08:00] 127.0.0.1 GET www.tp.com/backend/v1
+[运行时间：0.025759s] [吞吐率：38.82req/s] [内存消耗：1,729.78kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:22:28+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init
+[运行时间：0.015855s] [吞吐率：63.07req/s] [内存消耗：1,729.81kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:22:35+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.136004s] [吞吐率：7.35req/s] [内存消耗：3,027.89kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysConfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysConfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.077235s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.014355s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.013708s ]
+---------------------------------------------------------------
+[2019-08-02T19:22:39+08:00] 127.0.0.1 GET www.tp.com/v1/init/getSysConfig
+[运行时间：0.080410s] [吞吐率：12.44req/s] [内存消耗：3,027.31kb] [文件加载：75]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysConfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysConfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026109s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.016855s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.016350s ]
+---------------------------------------------------------------
+[2019-08-02T19:22:49+08:00] 127.0.0.1 GET www.tp.com/
+[运行时间：0.018530s] [吞吐率：53.97req/s] [内存消耗：2,117.18kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:23:20+08:00] 127.0.0.1 GET www.tp.com/backend/v1//Init/getLeftMenu?v=1.2.1%20pro&access_token=
+[运行时间：0.014940s] [吞吐率：66.93req/s] [内存消耗：1,709.64kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'Init',
+    'function' => 'getLeftMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/admin/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'Init',
+  'function' => 'getLeftMenu',
+)
+---------------------------------------------------------------
+[2019-08-02T19:23:20+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysconfig?access_token=
+[运行时间：0.087133s] [吞吐率：11.48req/s] [内存消耗：3,027.84kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysconfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/admin/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'access_token' => '',
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysconfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029327s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.017884s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.016500s ]
+---------------------------------------------------------------
+[2019-08-02T19:23:57+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.028683s] [吞吐率：34.86req/s] [内存消耗：1,730.20kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:23:58+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.014150s] [吞吐率：70.67req/s] [内存消耗：1,730.20kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:24:06+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.014636s] [吞吐率：68.32req/s] [内存消耗：1,730.20kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:24:09+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.016675s] [吞吐率：59.97req/s] [内存消耗：1,730.20kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:24:15+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.022822s] [吞吐率：43.82req/s] [内存消耗：1,730.20kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:24:17+08:00] 127.0.0.1 GET www.tp.com/v1/init/getSysConfig
+[运行时间：0.011325s] [吞吐率：88.30req/s] [内存消耗：1,238.76kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-08-02T19:24:29+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.016165s] [吞吐率：61.86req/s] [内存消耗：1,730.20kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:24:56+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.014756s] [吞吐率：67.77req/s] [内存消耗：1,730.17kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:24:57+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.015183s] [吞吐率：65.86req/s] [内存消耗：1,730.17kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:25:09+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.077762s] [吞吐率：12.86req/s] [内存消耗：3,028.22kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysConfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysConfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026621s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.014750s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.014018s ]
+---------------------------------------------------------------
+[2019-08-02T19:25:10+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.078705s] [吞吐率：12.71req/s] [内存消耗：3,028.22kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysConfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysConfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025583s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.016790s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.014092s ]
+---------------------------------------------------------------
+[2019-08-02T19:25:23+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.023992s] [吞吐率：41.68req/s] [内存消耗：1,211.87kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => '/admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysConfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysConfig',
+)
+[ error ] [2]strpos() expects parameter 1 to be string, array given[D:\web\layui_tp\thinkphp\library\think\response\Redirect.php:73]
+---------------------------------------------------------------
+[2019-08-02T19:25:25+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.070505s] [吞吐率：14.18req/s] [内存消耗：3,028.22kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysConfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysConfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023599s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.013940s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.013455s ]
+---------------------------------------------------------------
+[2019-08-02T19:25:31+08:00] 127.0.0.1 GET www.tp.com/v1/init/getSysConfig
+[运行时间：0.082879s] [吞吐率：12.07req/s] [内存消耗：3,027.31kb] [文件加载：75]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysConfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysConfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025351s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.014394s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.013857s ]
+---------------------------------------------------------------
+[2019-08-02T19:28:13+08:00] 127.0.0.1 GET www.tp.com/v1/user/loginIn
+[运行时间：0.013993s] [吞吐率：71.46req/s] [内存消耗：1,238.76kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-08-02T19:28:20+08:00] 127.0.0.1 GET www.tp.com/v1/user/loginIn
+[运行时间：0.023971s] [吞吐率：41.72req/s] [内存消耗：1,238.76kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-08-02T19:28:27+08:00] 127.0.0.1 GET www.tp.com/v1/user/loginIn
+[运行时间：0.021359s] [吞吐率：46.82req/s] [内存消耗：1,238.77kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-08-02T19:28:28+08:00] 127.0.0.1 GET www.tp.com/
+[运行时间：0.017967s] [吞吐率：55.66req/s] [内存消耗：2,117.28kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:28:29+08:00] 127.0.0.1 GET www.tp.com/
+[运行时间：0.016389s] [吞吐率：61.02req/s] [内存消耗：2,117.28kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:28:30+08:00] 127.0.0.1 GET www.tp.com/
+[运行时间：0.019164s] [吞吐率：52.18req/s] [内存消耗：2,117.28kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:28:35+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.018465s] [吞吐率：54.16req/s] [内存消耗：1,729.71kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:28:43+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.029647s] [吞吐率：33.73req/s] [内存消耗：1,729.90kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:28:46+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.013983s] [吞吐率：71.52req/s] [内存消耗：1,729.90kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:28:50+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.016071s] [吞吐率：62.22req/s] [内存消耗：1,729.90kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-08-02T19:28:55+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.079093s] [吞吐率：12.64req/s] [内存消耗：3,027.91kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysConfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysConfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025188s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.015123s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.014395s ]
+---------------------------------------------------------------
+[2019-08-02T19:32:21+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.084770s] [吞吐率：11.80req/s] [内存消耗：3,027.91kb] [文件加载：74]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysConfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysConfig',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027279s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.015926s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` WHERE  `group` = 'basic' [ RunTime:0.015076s ]
+---------------------------------------------------------------
+[2019-08-02T19:34:07+08:00] 127.0.0.1 GET www.tp.com/backend/v1/init/getSysConfig
+[运行时间：0.015665s] [吞吐率：63.84req/s] [内存消耗：1,705.53kb] [文件加载：61]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>',
+  'route' => 'admin/:version.:controller',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'init',
+)
+---------------------------------------------------------------
+[2019-08-02T19:34:10+08:00] 127.0.0.1 GET www.tp.com/favicon.ico
+[运行时间：0.011626s] [吞吐率：86.01req/s] [内存消耗：1,238.69kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-08-02T19:34:11+08:00] 127.0.0.1 GET www.tp.com/v1/init/getSysConfig
+[运行时间：0.016555s] [吞吐率：60.40req/s] [内存消耗：1,705.03kb] [文件加载：62]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>',
+  'route' => 'admin/:version.:controller',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'init',
+)
+---------------------------------------------------------------
+[2019-08-02T19:35:37+08:00] 127.0.0.1 GET www.tp.com/v1/init/getSysConfig
+[运行时间：0.022791s] [吞吐率：43.88req/s] [内存消耗：1,765.09kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysConfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysConfig',
+)
+---------------------------------------------------------------
+[2019-08-02T19:35:38+08:00] 127.0.0.1 GET www.tp.com/v1/init/getSysConfig
+[运行时间：0.018891s] [吞吐率：52.94req/s] [内存消耗：1,765.09kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '<version>/<controller>/<function>',
+  'route' => 'admin/:version.:controller/:function',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'controller' => 'init',
+    'function' => 'getSysConfig',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'controller' => 'init',
+  'function' => 'getSysConfig',
+)

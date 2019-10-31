@@ -1,0 +1,180 @@
+<style>
+  .layuiadmin-big-font {text-align: center;font-size: 42px;}
+</style>
+
+<title>管理系统</title>
+<div class="layui-card layadmin-header">
+  <div class="layui-breadcrumb" lay-filter="breadcrumb">
+    <a lay-href="">首页</a>
+    <a><cite>微信公众号</cite></a>
+    <a><cite>统计分析</cite></a>
+  </div>
+</div>
+
+<div class="layui-fluid">
+  <div class="layui-row layui-col-space15">
+    <div class="layui-col-sm6 layui-col-md3">
+      <div class="layui-card">
+        <div class="layui-card-header">
+          关注总数
+        </div>
+        <div class="layui-card-body layuiadmin-card-list">
+          <p class="layuiadmin-big-font">66,666</p>
+        </div>
+      </div>
+    </div>   
+    <div class="layui-col-sm6 layui-col-md3">
+      <div class="layui-card">
+        <div class="layui-card-header">
+          新关注人数
+          <span class="layui-badge layui-bg-blue layuiadmin-badge">昨日</span>
+        </div>
+        <div class="layui-card-body layuiadmin-card-list">
+          <p class="layuiadmin-big-font">22</p>
+        </div>
+      </div>
+    </div>
+    <div class="layui-col-sm6 layui-col-md3">
+      <div class="layui-card">
+        <div class="layui-card-header">
+          取消关注人数
+          <span class="layui-badge layui-bg-cyan layuiadmin-badge">昨日</span>
+        </div>
+        <div class="layui-card-body layuiadmin-card-list">
+          <p class="layuiadmin-big-font">22</p>
+        </div>
+      </div>
+    </div>
+    <div class="layui-col-sm6 layui-col-md3">
+      <div class="layui-card">
+        <div class="layui-card-header">
+          净增人数
+          <span class="layui-badge layui-bg-green layuiadmin-badge">昨日</span>
+        </div>
+        <div class="layui-card-body layuiadmin-card-list">
+
+          <p class="layuiadmin-big-font">123</p>
+        </div>
+      </div>
+    </div>
+    <div class="layui-col-sm12">
+      <div class="layui-card">
+        <div class="layui-card-header">
+          粉丝数
+        </div>
+        <div class="layui-card-body">
+          <div class="layui-row">
+            <div class="layui-col-sm12">
+                <div class="layui-carousel layadmin-carousel layadmin-dataview" data-anim="fade" lay-filter="LAY-index-pagetwo">
+                  <div carousel-item id="LAY-index-pagetwo">
+                    <div><i class="layui-icon layui-icon-loading1 layadmin-loading"></i></div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+layui.use(['myUtils'], function(){
+
+  //区块轮播切换
+  layui.use(['admin', 'carousel'], function(){
+    var $ = layui.$
+    ,admin = layui.admin
+    ,carousel = layui.carousel
+    ,element = layui.element
+    ,device = layui.device();
+
+    //轮播切换
+    $('.layadmin-carousel').each(function(){
+      var othis = $(this);
+      carousel.render({
+         elem: this
+        ,width: '100%'
+        ,arrow: 'none'
+        ,interval: othis.data('interval')
+        ,autoplay: othis.data('autoplay') === true
+        ,trigger: (device.ios || device.android) ? 'click' : 'hover'
+        ,anim: othis.data('anim')
+      });
+    });
+    element.render('progress');
+  });
+
+
+
+  // //访问量
+  layui.use(['carousel', 'echarts'], function(){
+    var $ = layui.$
+    ,carousel = layui.carousel
+    ,echarts = layui.echarts;
+    
+    var echartsApp = [], options = [
+      {
+        tooltip : {
+          trigger: 'axis'
+        },
+        calculable : true,
+        legend: {
+          data:['访问量','下载量','平均访问量']
+        },
+        
+        xAxis : [
+          {
+            type : 'category',
+            data : ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月']
+          }
+        ],
+        yAxis : [
+          {
+            type : 'value',
+            name : '访问量',
+            axisLabel : {
+              formatter: '{value} 万'
+            }
+          },
+          {
+            type : 'value',
+            name : '下载量',
+            axisLabel : {
+                formatter: '{value} 万'
+            }
+          }
+        ],
+        series : [
+          {
+            name:'访问量',
+            type:'line',
+            data:[900, 850, 950, 1000, 1100, 1050, 1000, 1150, 1250, 1370, 1250, 1100]
+          },
+          {
+            name:'下载量',
+            type:'line',
+            yAxisIndex: 1,
+            data:[850, 850, 800, 950, 1000, 950, 950, 1150, 1100, 1240, 1000, 950]
+          },
+          {
+            name:'平均访问量',
+            type:'line',
+            data:[870, 850, 850, 950, 1050, 1000, 980, 1150, 1000, 1300, 1150, 1000]
+          }
+        ]
+      }
+    ]
+    ,elemDataView = $('#LAY-index-pagetwo').children('div')
+    ,renderDataView = function(index){
+      echartsApp[index] = echarts.init(elemDataView[index], layui.echartsTheme);
+      echartsApp[index].setOption(options[index]);
+      window.onresize = echartsApp[index].resize;
+    };
+    //没找到DOM，终止执行
+    renderDataView(0);
+    
+   });
+
+});
+</script>

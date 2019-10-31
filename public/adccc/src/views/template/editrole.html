@@ -1,0 +1,169 @@
+<title>
+    面板
+</title>
+<style>
+    .flushrole { margin-left:20px;}
+</style>
+<div class="layui-card layadmin-header">
+    <div class="layui-breadcrumb" lay-filter="breadcrumb">
+        <a lay-href="">
+            首页
+        </a>
+        <a>
+            <cite>
+                系统设置
+            </cite>
+        </a>
+        <a>
+            <cite>
+                添加用户组
+            </cite>
+        </a>
+    </div>
+</div>
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md12">
+            <form class="layui-form" wid100 action="system/group/editGroup">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <script type="text/html" template lay-url="system/group/editGroup" lay-type="get" 
+                            lay-data="{id:'{{layui.router().search.id}}'}"
+                            lay-done="getGroupByIdDone(d);">
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">
+                            角色名称
+                        </label>
+                        <div class="layui-input-inline">
+                            {{# if(layui.router().search.id){       }}
+                                <div style="padding: 6px 10px;">{{d.data.name}}</div>
+                            {{# }else{ }}
+                                <input type="text" name="name" lay-verify="required" value="" class="layui-input"/>
+                            {{#  }  }}
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">
+                            备注
+                        </label>
+                        <div class="layui-col-xs6">
+                            <textarea name="remark" placeholder="请输入内容" class="layui-textarea">{{d.data.remark||''}}</textarea>
+                        </div>
+                    </div>
+                    </script>
+                </div>
+            </div>
+            <div class="layui-card">
+                <div class="layui-card-header">
+                    权限列表
+                </div>
+                <script id="layuirolestpl" type="text/html">
+                    {{#   layui.each(d.data, function(index, item){                    }}
+                    {{#        if(item.action.length>0) {                                                      }}
+                          <div class="layui-collapse" lay-filter="component-panel">
+                            <div class="layui-colla-item">
+                              <h2 class="layui-colla-title">模块: {{item.controller.title}}</h2>
+                              <div class="layui-colla-content layui-show layui-form" lay-filter="lay-getRolesData-data-filter">
+                    {{#     layui.each(item.action, function(index, item){          }}
+                                <div class="layui-input-inline">
+                                    <input type="checkbox" name="roles" title="{{item.title}}" data="{{replaceAll(item.action)}}" value="{{item.action}}">
+                                    <div class="layui-unselect layui-form-checkbox">
+                                        <span>{{item.title}}</span>
+                                        <i class="layui-icon layui-icon-ok"></i>
+                                    </div>
+                                </div>
+                    {{#        })                              }}
+                
+                              </div>
+                            </div>
+                          </div>
+                    {{#        }                              }}
+                    {{#       })                              }}
+                    <input type="hidden" name="action" value="{{layui.router().search.action||'add'}}">
+                </script>
+                
+                <div class="layui-card-body" id="roles-view">
+                </div>
+                
+            </div>
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <div class="layui-input-block">
+                        <button class="layui-btn layui-btn-primary goback" type="button" lay-href="system/group">
+                            返回
+                        </button>
+                        <button class="layui-btn" lay-submit type="button" lay-filter="submit">提交</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+
+
+<script>
+
+var replaceAll = function (d) { return d.replace(/\\/g, '_'); }
+
+layui.use(['admin','form','laytpl'], function(){
+    var $ = layui.$
+    $('.layui-nav-item').find("[data-jump='system/role']").addClass('layui-this');
+
+    
+    var index = layer.load(0, {shade: false});
+    getGroupByIdDone = function (d) {
+        var roles = d.data.roles?$.parseJSON(d.data.roles):[];
+
+        layui.admin.req({
+            url:'system/group/getRoles',
+            success:function(res){
+                layui.laytpl($('#layuirolestpl').html()).render(res, function (html) {
+                    $('#roles-view').html(html);
+
+                    $.each(roles, function(index, val) {
+                        var act = replaceAll(val);
+                        $('.layui-card-body input[data="'+act+'"]').prop('checked', 'checked');
+                    });
+
+                    layui.form.render(null, 'lay-getRolesData-data-filter')
+                    layer.close(index);
+                });
+            }
+        })
+    }
+
+
+    layui.form.on('submit(submit)', function(data){
+        var titles = [];
+        var roles = [];
+        $.each($('.layui-card-body input[type="checkbox"]:checked'), function(index, val) {
+            titles.push($(this).attr('title'));
+            roles.push($(this).val());
+        });
+        data.field['titles'] = titles;
+        data.field['roles'] = roles;
+        if(layui.router().search.id){
+            data.field['id'] = layui.router().search.id;
+        }
+        layui.admin.req({
+            url:$(data.form).attr('action'),
+            type:'post',
+            data:data.field,
+            done:function(data){
+                if(data.status=='success'){
+                    layui.layer.msg(data.msg, {icon: 1,time: 1000 }, function(){
+                      location.hash = '/system/group';
+                    });
+                }else{
+                    layui.layer.msg(data.msg, {icon: 2,time: 2000 });
+                }
+            }
+        })
+        return false;
+    });
+    
+});
+
+
+
+</script>

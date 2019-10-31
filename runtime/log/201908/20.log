@@ -1,0 +1,2362 @@
+---------------------------------------------------------------
+[2019-08-20T17:04:50+08:00] 127.0.0.1 GET www.tp.com/favicon.ico
+[运行时间：0.019088s] [吞吐率：52.39req/s] [内存消耗：1,570.95kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-08-20T17:04:54+08:00] 127.0.0.1 GET www.tp.com/Admin/wechat/article/ueditUpload?action=config&&noCache=1566291893087
+[运行时间：0.020461s] [吞吐率：48.87req/s] [内存消耗：1,947.98kb] [文件加载：66]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'config',
+  'noCache' => '1566291893087',
+)
+---------------------------------------------------------------
+[2019-08-20T17:04:59+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：2.707937s] [吞吐率：0.37req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:2.596768s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.015525s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.015016s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.014920s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.015166s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.014180s ]
+---------------------------------------------------------------
+[2019-08-20T17:04:59+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：6.687523s] [吞吐率：0.15req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:6.577279s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014899s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.015492s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.015794s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.014537s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.015209s ]
+---------------------------------------------------------------
+[2019-08-20T17:04:59+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.123971s] [吞吐率：8.07req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024668s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014728s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.014599s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.014508s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.014495s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.014082s ]
+---------------------------------------------------------------
+[2019-08-20T17:05:10+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.140006s] [吞吐率：7.14req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022777s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.015099s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.014416s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.014564s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.019854s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.014012s ]
+---------------------------------------------------------------
+[2019-08-20T17:05:27+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.132005s] [吞吐率：7.58req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024456s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014700s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.013363s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.013405s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.013316s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.013065s ]
+---------------------------------------------------------------
+[2019-08-20T17:05:30+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.110166s] [吞吐率：9.08req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019152s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.012752s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.012592s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.012733s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.012838s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.012399s ]
+---------------------------------------------------------------
+[2019-08-20T17:08:00+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.148341s] [吞吐率：6.74req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024132s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.013464s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.012747s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.013176s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.012720s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.013135s ]
+---------------------------------------------------------------
+[2019-08-20T17:18:12+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.152984s] [吞吐率：6.54req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047391s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014382s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.013872s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.013584s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.013626s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.013724s ]
+---------------------------------------------------------------
+[2019-08-20T17:18:13+08:00] 127.0.0.1 POST www.tp.com/Admin/wechat/menu/JsonPretiy
+[运行时间：0.017695s] [吞吐率：56.51req/s] [内存消耗：1,942.59kb] [文件加载：67]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '380',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'button' => 
+  array (
+    0 => 
+    array (
+      'name' => '菜单名称',
+      'type' => 'click',
+      'key' => 'menu_click_0',
+    ),
+    1 => 
+    array (
+      'name' => '菜单名称',
+      'type' => 'click',
+      'key' => 'menu_click_1',
+    ),
+    2 => 
+    array (
+      'name' => '菜单名称',
+      'type' => 'click',
+      'key' => 'menu_click_2',
+    ),
+  ),
+)
+---------------------------------------------------------------
+[2019-08-20T17:18:14+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.133074s] [吞吐率：7.51req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024259s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.013973s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.013724s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.013743s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.013903s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.013613s ]
+---------------------------------------------------------------
+[2019-08-20T17:21:22+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.166032s] [吞吐率：6.02req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055561s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.015179s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.014347s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.014073s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.014104s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.014064s ]
+---------------------------------------------------------------
+[2019-08-20T17:21:41+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.156149s] [吞吐率：6.40req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022544s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.015433s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.015113s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.015220s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.015130s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.015417s ]
+---------------------------------------------------------------
+[2019-08-20T17:24:13+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.148543s] [吞吐率：6.73req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023448s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.015932s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.015588s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.015933s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.015941s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.015983s ]
+---------------------------------------------------------------
+[2019-08-20T17:25:39+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.126856s] [吞吐率：7.88req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020155s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.013222s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.012991s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.013315s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.015202s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.016985s ]
+---------------------------------------------------------------
+[2019-08-20T17:26:46+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.150149s] [吞吐率：6.66req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024457s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.015901s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.015527s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.015824s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.015510s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.015951s ]
+---------------------------------------------------------------
+[2019-08-20T17:55:17+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.179437s] [吞吐率：5.57req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.057418s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.015175s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.014785s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.015070s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.015034s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.014874s ]
+---------------------------------------------------------------
+[2019-08-20T17:55:21+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/Member/index
+[运行时间：0.105130s] [吞吐率：9.51req/s] [内存消耗：2,889.68kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023370s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_member` [ RunTime:0.016114s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.015913s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_member` [ RunTime:0.015754s ]
+---------------------------------------------------------------
+[2019-08-20T17:56:06+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.166491s] [吞吐率：6.01req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.051089s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014591s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.013310s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.013499s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.013654s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.013311s ]
+---------------------------------------------------------------
+[2019-08-20T17:56:10+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.184029s] [吞吐率：5.43req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035266s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.018615s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.029750s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.017318s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.025919s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.021403s ]
+---------------------------------------------------------------
+[2019-08-20T17:56:12+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.260241s] [吞吐率：3.84req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.086500s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.074188s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.020846s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.016982s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.016541s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.016171s ]
+---------------------------------------------------------------
+[2019-08-20T17:58:13+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.147635s] [吞吐率：6.77req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022891s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.015152s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.018490s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.014521s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.014119s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.014113s ]
+---------------------------------------------------------------
+[2019-08-20T17:58:20+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.236326s] [吞吐率：4.23req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126597s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014810s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.014622s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.014587s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.014726s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.014130s ]
+---------------------------------------------------------------
+[2019-08-20T18:04:15+08:00] 127.0.0.1 GET www.tp.com/Admin/system/aduser/getGroupList
+[运行时间：0.116122s] [吞吐率：8.61req/s] [内存消耗：2,886.63kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024211s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_group` [ RunTime:0.015643s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `system_group` [ RunTime:0.014711s ]
+---------------------------------------------------------------
+[2019-08-20T18:04:16+08:00] 127.0.0.1 POST www.tp.com/Admin/system/aduser/index
+[运行时间：0.111773s] [吞吐率：8.95req/s] [内存消耗：2,890.08kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024480s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_aduser` [ RunTime:0.014144s ]
+[ sql ] [ SQL ] SELECT * FROM `system_aduser` [ RunTime:0.013885s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_group` [ RunTime:0.014458s ]
+[ sql ] [ SQL ] SELECT `name` FROM `system_group` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.013303s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_aduser` [ RunTime:0.013141s ]
+---------------------------------------------------------------
+[2019-08-20T18:05:01+08:00] 127.0.0.1 GET www.tp.com/favicon.ico
+[运行时间：0.023984s] [吞吐率：41.69req/s] [内存消耗：1,570.96kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-08-20T18:05:07+08:00] 127.0.0.1 GET www.tp.com/dev-pro/style/res/logo.png
+[运行时间：0.017043s] [吞吐率：58.68req/s] [内存消耗：1,570.92kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-08-20T18:05:10+08:00] 127.0.0.1 GET www.tp.com/dev-pro/style/res/logo.png
+[运行时间：0.017699s] [吞吐率：56.50req/s] [内存消耗：1,570.92kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-08-20T18:06:46+08:00] 127.0.0.1 GET www.tp.com/dev-pro/style/res/logo.png
+[运行时间：0.023651s] [吞吐率：42.28req/s] [内存消耗：1,570.92kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-08-20T18:06:49+08:00] 127.0.0.1 GET www.tp.com/dev-pro/style/res/logo.png
+[运行时间：0.032796s] [吞吐率：30.49req/s] [内存消耗：1,570.92kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-08-20T18:06:51+08:00] 127.0.0.1 GET www.tp.com/dev-pro/style/res/logo.png
+[运行时间：0.031591s] [吞吐率：31.65req/s] [内存消耗：1,570.92kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-08-20T18:07:25+08:00] 127.0.0.1 GET www.tp.com/dev-pro/style/res/logo.png
+[运行时间：0.019043s] [吞吐率：52.51req/s] [内存消耗：1,570.92kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-08-20T18:07:26+08:00] 127.0.0.1 GET www.tp.com/dev-pro/style/res/logo.png
+[运行时间：0.018421s] [吞吐率：54.29req/s] [内存消耗：1,570.92kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-08-20T18:08:33+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.182246s] [吞吐率：5.49req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.057016s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.016268s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.016114s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.016141s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.016053s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.015501s ]
+---------------------------------------------------------------
+[2019-08-20T18:08:34+08:00] 127.0.0.1 GET www.tp.com/Admin/system/aduser/getGroupList
+[运行时间：0.078284s] [吞吐率：12.77req/s] [内存消耗：2,886.63kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024901s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_group` [ RunTime:0.014890s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `system_group` [ RunTime:0.013778s ]
+---------------------------------------------------------------
+[2019-08-20T18:08:34+08:00] 127.0.0.1 POST www.tp.com/Admin/system/aduser/index
+[运行时间：0.130981s] [吞吐率：7.63req/s] [内存消耗：2,890.08kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027525s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_aduser` [ RunTime:0.015074s ]
+[ sql ] [ SQL ] SELECT * FROM `system_aduser` [ RunTime:0.014899s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_group` [ RunTime:0.015122s ]
+[ sql ] [ SQL ] SELECT `name` FROM `system_group` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.014398s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `system_aduser` [ RunTime:0.014558s ]
+---------------------------------------------------------------
+[2019-08-20T18:08:59+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.130203s] [吞吐率：7.68req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022490s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014567s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.014692s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.014482s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.014016s ]
+---------------------------------------------------------------
+[2019-08-20T18:09:54+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.148889s] [吞吐率：6.72req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047610s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.013470s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.013123s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.013214s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.013775s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.012977s ]
+---------------------------------------------------------------
+[2019-08-20T18:09:57+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.146809s] [吞吐率：6.81req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024449s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.016227s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.016121s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.016779s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.016280s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.015519s ]
+---------------------------------------------------------------
+[2019-08-20T18:10:22+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.124887s] [吞吐率：8.01req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020620s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014012s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.013107s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.013293s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.013239s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.013355s ]
+---------------------------------------------------------------
+[2019-08-20T18:11:25+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.148042s] [吞吐率：6.75req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023703s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.015517s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.015278s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.015594s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.015904s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.015364s ]
+---------------------------------------------------------------
+[2019-08-20T18:11:32+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/Member/index
+[运行时间：0.129638s] [吞吐率：7.71req/s] [内存消耗：2,889.68kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026144s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_member` [ RunTime:0.014282s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.013708s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_member` [ RunTime:0.012840s ]
+---------------------------------------------------------------
+[2019-08-20T18:11:46+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.160083s] [吞吐率：6.25req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063756s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.012577s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.015264s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.012707s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.012111s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.012243s ]
+---------------------------------------------------------------
+[2019-08-20T18:11:53+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.136875s] [吞吐率：7.31req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021350s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014160s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.014326s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.013841s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.013926s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.014141s ]
+---------------------------------------------------------------
+[2019-08-20T18:21:22+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/Member/index
+[运行时间：0.133811s] [吞吐率：7.47req/s] [内存消耗：2,889.68kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055430s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_member` [ RunTime:0.015596s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.014878s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_member` [ RunTime:0.014054s ]
+---------------------------------------------------------------
+[2019-08-20T18:21:30+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/Member/index
+[运行时间：0.099648s] [吞吐率：10.04req/s] [内存消耗：2,889.68kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021563s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_member` [ RunTime:0.014905s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.014626s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_member` [ RunTime:0.013740s ]
+---------------------------------------------------------------
+[2019-08-20T18:21:31+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/article/index
+[运行时间：0.101195s] [吞吐率：9.88req/s] [内存消耗：2,917.30kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026936s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_article` [ RunTime:0.016327s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_article` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.016053s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_article` [ RunTime:0.015470s ]
+---------------------------------------------------------------
+[2019-08-20T18:22:25+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/Member/index
+[运行时间：0.132211s] [吞吐率：7.56req/s] [内存消耗：2,889.68kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.048979s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_member` [ RunTime:0.014854s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.014656s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_member` [ RunTime:0.014036s ]
+---------------------------------------------------------------
+[2019-08-20T18:22:25+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/article/index
+[运行时间：0.101961s] [吞吐率：9.81req/s] [内存消耗：2,917.30kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025868s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_article` [ RunTime:0.015871s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_article` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_article` [ RunTime:0.014627s ]
+---------------------------------------------------------------
+[2019-08-20T18:22:28+08:00] 127.0.0.1 POST www.tp.com/Admin/system/menu/index
+[运行时间：0.077431s] [吞吐率：12.91req/s] [内存消耗：2,898.18kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021859s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014027s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.014277s ]
+---------------------------------------------------------------
+[2019-08-20T18:22:29+08:00] 127.0.0.1 POST www.tp.com/Admin/system/menu/index
+[运行时间：0.076385s] [吞吐率：13.09req/s] [内存消耗：2,901.55kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '9',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'parent' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025351s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014883s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.014548s ]
+---------------------------------------------------------------
+[2019-08-20T18:22:31+08:00] 127.0.0.1 POST www.tp.com/Admin/system/menu/index
+[运行时间：0.091416s] [吞吐率：10.94req/s] [内存消耗：2,899.35kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '16',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025322s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014815s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.014477s ]
+[ sql ] [ SQL ] SELECT `title` FROM `system_menu` WHERE  `id` = 12 ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.014325s ]
+---------------------------------------------------------------
+[2019-08-20T18:22:31+08:00] 127.0.0.1 GET www.tp.com/Admin/system/Menu/getRoleList
+[运行时间：0.070791s] [吞吐率：14.13req/s] [内存消耗：2,890.32kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020233s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_roles` [ RunTime:0.012958s ]
+[ sql ] [ SQL ] SELECT * FROM `system_roles` WHERE  `controller` IS NOT NULL [ RunTime:0.013773s ]
+---------------------------------------------------------------
+[2019-08-20T18:22:42+08:00] 127.0.0.1 POST www.tp.com/Admin/system/menu/index
+[运行时间：0.088252s] [吞吐率：11.33req/s] [内存消耗：2,899.35kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '14',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024673s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014342s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.013920s ]
+[ sql ] [ SQL ] SELECT `title` FROM `system_menu` WHERE  `id` = 12 ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.013885s ]
+---------------------------------------------------------------
+[2019-08-20T18:22:42+08:00] 127.0.0.1 GET www.tp.com/Admin/system/Menu/getRoleList
+[运行时间：0.092912s] [吞吐率：10.76req/s] [内存消耗：2,890.32kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024496s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_roles` [ RunTime:0.015965s ]
+[ sql ] [ SQL ] SELECT * FROM `system_roles` WHERE  `controller` IS NOT NULL [ RunTime:0.015963s ]
+---------------------------------------------------------------
+[2019-08-20T18:32:46+08:00] 127.0.0.1 POST www.tp.com/Admin/system/menu/edit
+[运行时间：0.110575s] [吞吐率：9.04req/s] [内存消耗：2,873.53kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '180',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'title' => '统计分析',
+  'jump' => 'wechat/index',
+  'role' => 'system\\Aduser\\index',
+  'sort' => '1',
+  'icon' => 'iconfont aliicon-tongji',
+  'action' => 'edit',
+  'parent' => '12',
+  'id' => '14',
+  'url' => 'system/menu/edit',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.051578s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.013568s ]
+[ sql ] [ SQL ] UPDATE `system_menu`  SET `title` = '统计分析' , `jump` = 'wechat/index' , `role` = 'system\\Aduser\\index' , `sort` = 1 , `icon` = 'iconfont aliicon-tongji' , `parent` = 12  WHERE  `id` = 14 [ RunTime:0.013604s ]
+---------------------------------------------------------------
+[2019-08-20T18:32:46+08:00] 127.0.0.1 POST www.tp.com/Admin/system/menu/index
+[运行时间：0.080513s] [吞吐率：12.42req/s] [内存消耗：2,898.18kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023540s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.013666s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.012841s ]
+---------------------------------------------------------------
+[2019-08-20T18:32:48+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.127309s] [吞吐率：7.85req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022416s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014212s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.014025s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.013253s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.013184s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.013416s ]
+---------------------------------------------------------------
+[2019-08-20T18:32:49+08:00] 127.0.0.1 POST www.tp.com/Admin/system/menu/index
+[运行时间：0.082607s] [吞吐率：12.11req/s] [内存消耗：2,898.18kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023864s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.013346s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.013135s ]
+---------------------------------------------------------------
+[2019-08-20T18:32:56+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/Member/index
+[运行时间：0.097924s] [吞吐率：10.21req/s] [内存消耗：2,889.68kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025043s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_member` [ RunTime:0.013725s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.013661s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_member` [ RunTime:0.012778s ]
+---------------------------------------------------------------
+[2019-08-20T18:32:56+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/article/index
+[运行时间：0.094565s] [吞吐率：10.57req/s] [内存消耗：2,917.30kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024320s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_article` [ RunTime:0.013846s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_article` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.013701s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_article` [ RunTime:0.013009s ]
+---------------------------------------------------------------
+[2019-08-20T18:32:58+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/Member/index
+[运行时间：0.093821s] [吞吐率：10.66req/s] [内存消耗：2,889.68kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'origin' => 'http://www.tp.com',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022205s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_member` [ RunTime:0.013976s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.013696s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_member` [ RunTime:0.012998s ]
+---------------------------------------------------------------
+[2019-08-20T18:33:09+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.130967s] [吞吐率：7.64req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023707s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.017145s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.014352s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.014444s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.014360s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.014482s ]
+---------------------------------------------------------------
+[2019-08-20T18:33:16+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/Member/index
+[运行时间：0.093251s] [吞吐率：10.72req/s] [内存消耗：2,889.68kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tp.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024251s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_member` [ RunTime:0.014744s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.014079s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_member` [ RunTime:0.013634s ]
+---------------------------------------------------------------
+[2019-08-20T18:33:20+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/Member/index
+[运行时间：0.082909s] [吞吐率：12.06req/s] [内存消耗：2,889.68kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tp.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019554s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_member` [ RunTime:0.013381s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.012826s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_member` [ RunTime:0.012022s ]
+---------------------------------------------------------------
+[2019-08-20T18:33:21+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/article/index
+[运行时间：0.095484s] [吞吐率：10.47req/s] [内存消耗：2,917.30kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tp.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023953s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_article` [ RunTime:0.014510s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_article` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.014122s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_article` [ RunTime:0.013221s ]
+---------------------------------------------------------------
+[2019-08-20T18:37:14+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.165332s] [吞吐率：6.05req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.053467s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014599s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.014298s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.014221s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.014191s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.016706s ]
+---------------------------------------------------------------
+[2019-08-20T18:37:15+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/article/index
+[运行时间：0.092537s] [吞吐率：10.81req/s] [内存消耗：2,917.30kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tp.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026525s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_article` [ RunTime:0.016036s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_article` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.015897s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_article` [ RunTime:0.015293s ]
+---------------------------------------------------------------
+[2019-08-20T18:38:18+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.159076s] [吞吐率：6.29req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052982s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.013918s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.012673s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.011898s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.013262s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.012904s ]
+---------------------------------------------------------------
+[2019-08-20T18:38:31+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.127808s] [吞吐率：7.82req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021218s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014446s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.014127s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.013708s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.013519s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.013210s ]
+---------------------------------------------------------------
+[2019-08-20T18:39:05+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.151022s] [吞吐率：6.62req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045531s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.013137s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.013621s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.014778s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.012790s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.013132s ]
+---------------------------------------------------------------
+[2019-08-20T18:41:00+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.160469s] [吞吐率：6.23req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.050953s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014350s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.013393s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.013535s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.013860s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.013529s ]
+---------------------------------------------------------------
+[2019-08-20T18:41:11+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.113655s] [吞吐率：8.80req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022194s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.012678s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.012318s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.012612s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.012321s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.012304s ]
+---------------------------------------------------------------
+[2019-08-20T18:41:27+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.133584s] [吞吐率：7.49req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020063s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.013306s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.012303s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.012436s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.013343s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.012450s ]
+---------------------------------------------------------------
+[2019-08-20T18:41:37+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.141998s] [吞吐率：7.04req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026410s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.015658s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.015624s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.015382s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.015205s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.015056s ]
+---------------------------------------------------------------
+[2019-08-20T18:47:01+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.147962s] [吞吐率：6.76req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027103s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.016401s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.015413s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.015336s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.015862s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.015678s ]
+---------------------------------------------------------------
+[2019-08-20T18:47:39+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.125624s] [吞吐率：7.96req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020681s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.013832s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.013775s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.013863s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.013945s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.013510s ]
+---------------------------------------------------------------
+[2019-08-20T18:48:43+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.323803s] [吞吐率：3.09req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.157385s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.060106s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.013776s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.013899s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.014457s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.013964s ]
+---------------------------------------------------------------
+[2019-08-20T18:49:07+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.185843s] [吞吐率：5.38req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.049979s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.016302s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.015628s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.015573s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.015730s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.015854s ]
+---------------------------------------------------------------
+[2019-08-20T18:49:09+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.145849s] [吞吐率：6.86req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027206s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.016605s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.015992s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.016239s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.016168s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.015924s ]
+---------------------------------------------------------------
+[2019-08-20T18:49:30+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.127423s] [吞吐率：7.85req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022393s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.015104s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.014357s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.014854s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.014493s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.014111s ]
+---------------------------------------------------------------
+[2019-08-20T18:50:00+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.149987s] [吞吐率：6.67req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025912s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.015923s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.016678s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.015260s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.014339s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.015049s ]
+---------------------------------------------------------------
+[2019-08-20T18:50:11+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.147191s] [吞吐率：6.79req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022768s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.015480s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.015738s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.015092s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.015322s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.015071s ]
+---------------------------------------------------------------
+[2019-08-20T18:50:18+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/Member/index
+[运行时间：0.099067s] [吞吐率：10.09req/s] [内存消耗：2,889.68kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tp.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020548s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_member` [ RunTime:0.013820s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.013930s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_member` [ RunTime:0.013088s ]
+---------------------------------------------------------------
+[2019-08-20T18:50:18+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/article/index
+[运行时间：0.103216s] [吞吐率：9.69req/s] [内存消耗：2,917.30kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tp.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029405s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_article` [ RunTime:0.015744s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_article` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.015738s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_article` [ RunTime:0.014393s ]
+---------------------------------------------------------------
+[2019-08-20T18:50:19+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/Member/index
+[运行时间：0.094166s] [吞吐率：10.62req/s] [内存消耗：2,889.68kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tp.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024832s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_member` [ RunTime:0.013808s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.013330s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_member` [ RunTime:0.012750s ]
+---------------------------------------------------------------
+[2019-08-20T18:50:21+08:00] 127.0.0.1 GET www.tp.com/Admin//system/Menu/getLeftMenu?v=1.2.1%20pro
+[运行时间：0.121993s] [吞吐率：8.20req/s] [内存消耗：2,893.47kb] [文件加载：71]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '1.2.1 pro',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021937s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.014733s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` IS NULL ORDER BY `sort` ASC [ RunTime:0.013723s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 2 ORDER BY `sort` ASC [ RunTime:0.013841s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 12 ORDER BY `sort` ASC [ RunTime:0.014111s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `parent` = 4 ORDER BY `sort` ASC [ RunTime:0.014054s ]
+---------------------------------------------------------------
+[2019-08-20T18:50:22+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/Member/index
+[运行时间：0.099602s] [吞吐率：10.04req/s] [内存消耗：2,889.68kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tp.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025665s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_member` [ RunTime:0.014403s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.014289s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_member` [ RunTime:0.014198s ]
+---------------------------------------------------------------
+[2019-08-20T18:50:56+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/Member/index
+[运行时间：0.096267s] [吞吐率：10.39req/s] [内存消耗：2,889.68kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tp.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025905s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_member` [ RunTime:0.014694s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.014277s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_member` [ RunTime:0.013707s ]
+---------------------------------------------------------------
+[2019-08-20T18:50:57+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/article/index
+[运行时间：0.088904s] [吞吐率：11.25req/s] [内存消耗：2,917.30kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tp.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020470s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_article` [ RunTime:0.014569s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_article` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.013794s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_article` [ RunTime:0.013918s ]
+---------------------------------------------------------------
+[2019-08-20T18:50:57+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/Member/index
+[运行时间：0.106655s] [吞吐率：9.38req/s] [内存消耗：2,889.68kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tp.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027241s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_member` [ RunTime:0.014954s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.015589s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_member` [ RunTime:0.015453s ]
+---------------------------------------------------------------
+[2019-08-20T18:54:22+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/Member/index
+[运行时间：0.144864s] [吞吐率：6.90req/s] [内存消耗：2,889.68kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tp.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.056718s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_member` [ RunTime:0.017131s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.014515s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_member` [ RunTime:0.017929s ]
+---------------------------------------------------------------
+[2019-08-20T18:55:23+08:00] 127.0.0.1 POST www.tp.com/admin/wechat/Member/index
+[运行时间：0.089413s] [吞吐率：11.18req/s] [内存消耗：2,889.68kb] [文件加载：72]
+[ info ] [ LANG ] D:\web\layui_tp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.com/adccc/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tp.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '35',
+  'connection' => 'close',
+  'host' => 'www.tp.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'field' => 'id',
+  'order' => 'desc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024211s ] mysql:host=ycwlsoft.com;port=13306;dbname=layuitp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wechat_member` [ RunTime:0.014268s ]
+[ sql ] [ SQL ] SELECT * FROM `wechat_member` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.012982s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wechat_member` [ RunTime:0.013360s ]

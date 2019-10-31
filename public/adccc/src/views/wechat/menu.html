@@ -1,0 +1,182 @@
+<script type="text/html" template>
+    <link rel="stylesheet" href="{{ layui.setter.base }}style/wechat_menu.css?v={{ layui.setter.version }}" media="all"/>
+</script>
+<div class="layui-card layadmin-header">
+    <div class="layui-breadcrumb" lay-filter="breadcrumb">
+        <a lay-href="">
+            主页
+        </a>
+        <a>
+            <cite>
+                微信公众号
+            </cite>
+        </a>
+        <a>
+            <cite>
+                菜单管理
+            </cite>
+        </a>
+    </div>
+</div>
+<div class="layui-fluid">
+    <div class="layui-card layui-anim layui-anim-upbit">
+        <div class="layui-card-body layui-row">
+            <div class="menu-box">
+                <div class="wx-box">
+                    <div class="phone">
+                        <div class="phone-header"></div>
+                        <div class="phone-footer">
+                            <div class="phone-menu-box"></div>
+                        </div>
+                    </div>
+                    <div class="wx-btn">
+                        <button class="layui-btn layui-btn-primary menu-sort" type="button">
+                            菜单排序
+                        </button>
+                        <button class="layui-btn layui-btn show-json" type="button">
+                            查看json
+                        </button>
+                    </div>
+                </div>
+                <div id="operation-box"></div>
+                <div class="json-data">
+                    <textarea class="json-data-content"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script id="phone-footer-tpl" type="text/html">
+{{#   layui.each(d.menus, function(index, item) {                                                                        }}
+      <div class="menus {{d.isSort?'issort':''}} {{d.curindex==index&&d.subindex==null&&!d.isSort?'cur':''}}">
+        {{d.isSort?'<i class="iconfont aliicon-caidan1" drmove ></i>':''}}
+        {{item.name}}
+      
+{{#   if(d.curindex==index){                                      }}      
+          <div class="addsubmenu" style="width: {{d.subWidth}}px;top:-{{item.sub_button?item.sub_button.length < 5&&!d.isSort?(item.sub_button.length+1)*48+10:(item.sub_button.length)*48+10:58}}px; {{item.sub_button==undefined&&d.isSort?' display:none;':''}}">
+              <ul>
+            {{#     if( (item.sub_button==undefined || item.sub_button.length<5) && !d.isSort) {                                                       }}
+                <li class="add-sub-menu"><i class="layui-icon layui-icon-add-1"></i> <i class="arrow arrow_out"></i>
+              <i class="arrow arrow_in"></i></li>
+            {{#     }                                              }}
+
+            {{#   layui.each(item.sub_button, function(si, st){                               }}
+                  <li class="sub-menu {{d.isSort?'issort':''}} {{d.subindex!=null&&d.curindex==index&&d.subindex==si&&!d.isSort?'cur':''}}">
+                    {{d.isSort?'<i class="iconfont aliicon-caidan1" dsmove></i>':''}}
+                    {{st.name}} <i class="arrow arrow_out"></i>
+              <i class="arrow arrow_in"></i></li>
+
+            {{#   })                                                                                    }}
+            {{#                                                                               }}
+
+            {{#                                                                                 }}
+              </ul>
+          </div>
+
+{{#    }                                                                                                        }}
+
+      </div>
+
+      </div>
+{{#   })                                                                                                       }}
+
+
+{{#  if(d.menus.length < 3 && !d.isSort) {                                 }}
+{{#  if(d.menus.length==0){                                                                       }}
+    <div class="menus menu-add {{d.curindex==d.menus.length?'cur':''}}" style="width: {{d.subWidth}}px;">
+      <i class="layui-icon layui-icon-add-1"></i>
+      添加菜单
+    </div>
+{{#   }else{                                                                      }}
+    <div class="menus menu-add {{d.curindex==d.menus.length?'cur':''}}" style="width: {{d.subWidth}}px;">
+      <i class="layui-icon layui-icon-add-1"></i>
+    </div>
+{{#   }                                                }}
+{{#   }                                                }}
+</script>
+<script type="text/html" id="operation-tpl">
+  <div class="layui-card operation-card layui-form" lay-filter="operation-form">
+      <div class="layui-card-header">{{d.sub==undefined?'设置主菜单':'设置子菜单'}}</div>
+      <div class="layui-card-body">
+          <div class="layui-form-item">
+              <label class="layui-form-label">菜单名称</label>
+              <div class="layui-input-block" style="width: 200px;">
+                <input type="text" name="name" value="{{d.name}}" lay-verify="required" autocomplete="off" class="layui-input operation-input">
+                字数不超过4个汉字或8个字母
+              </div>
+          </div>
+
+          <div class="layui-form-item">
+              <label class="layui-form-label">菜单功能</label>
+        {{#    if(d.sub_button){                 }}
+                <input type="radio" title="展开子菜单" checked>
+        {{#     }else{                                        }}
+              <div class="layui-input-block menu-content-radios">
+                  <input type="radio" name="menu-type" value="click" title="默认点击事件" {{d.type=='click'?'checked':''}} lay-filter="menu-type-filter">
+                  <input type="radio" name="menu-type" value="media_id" title="发送消息" {{d.type=='media_id'?'checked':''}} lay-filter="menu-type-filter">
+                  <input type="radio" name="menu-type" value="view_limited" title="跳转公证号文章" {{d.type=='view_limited'?'checked':''}} lay-filter="menu-type-filter">
+                  <input type="radio" name="menu-type" value="view" title="跳转H5" {{d.type=='view'?'checked':''}} lay-filter="menu-type-filter">
+                  <input type="radio" name="menu-type" value="miniprogram" title="跳转小程序" {{d.type=='miniprogram'?'checked':''}} lay-filter="menu-type-filter">
+                  <input type="radio" name="menu-type" value="scancode_push" title="打开扫一扫" {{d.type=='scancode_push'?'checked':''}} lay-filter="menu-type-filter">
+              </div>
+
+              <div class="layui-form-item operation-content">
+
+              <div class="layui-form-item">
+         {{#     if(d.type=='click'){                                                            }}   
+                <div class="tip"> 订阅者点击该菜单会向服务器发送key </div>
+                  <label class="layui-form-label">key</label>
+                  <div class="layui-input-block" style="width: 30%;">
+                      <input value="{{d.key||''}}" type="text" name="key" lay-verify="required" autocomplete="off" class="layui-input operation-input">
+                    </div>
+                </div>
+          {{#    }else if(d.type=='media_id'){                                                       }}    
+                <div class="tip"> 订阅者点击该菜单会收到服务器下发的消息 </div>
+                  <label class="layui-form-label">media_id</label>
+                  <div class="layui-input-block" style="width: 30%;">
+                      <input value="{{d.media_id||''}}" type="text" name="media_id" lay-verify="required" autocomplete="off" class="layui-input operation-input">
+                    </div>
+                </div>
+          {{#    }else if(d.type=='view_limited'){                                                  }}   
+                <div class="tip"> 订阅者点击该菜单会直接打开公众号文章 </div>
+                  <label class="layui-form-label">文章media_id</label>
+                  <div class="layui-input-block" style="width: 30%;">
+                      <input value="{{d.media_id||''}}" type="text" name="media_id" lay-verify="required" autocomplete="off" class="layui-input operation-input">
+                    </div>
+                </div>
+          {{#    }else if(d.type=='view'){                          }}   
+                <div class="tip"> 订阅者点击该菜单会跳转H5 </div>
+                  <label class="layui-form-label">H5地址</label>
+                  <div class="layui-input-block" style="width: 30%;">
+                      <input value="{{d.url||''}}" type="text" name="url" lay-verify="required" autocomplete="off" class="layui-input operation-input">
+                    </div>
+                </div>  
+          {{#    }else if(d.type=='miniprogram'){                          }}   
+                <div class="tip"> 订阅者点击该菜单会打开微信小程序 </div>
+                  <label class="layui-form-label">小程序appid</label>
+                  <div class="layui-input-block" style="width: 30%;">
+                      <input value="{{d.appid||''}}" type="text" name="appid" lay-verify="required" autocomplete="off" class="layui-input operation-input">
+                    </div>
+                </div>  
+          {{#    }else if(d.type=='scancode_push'){                          }}   
+                <div class="tip"> 订阅者点击该菜单会打开微信扫一扫 </div>
+                <label class="layui-form-label"></label>
+                  <div class="layui-input-block" style="width: 30%;">
+                  </div>
+                </div> 
+          {{#   }   }}
+          </div>
+
+        {{#     }                                       }}      
+          </div>
+        
+  </div>
+</div>
+<div class="wx-btn" style="text-align: left;margin-left: 200px;">
+<button class="layui-btn layui-btn">保存并发布</button>
+<button class="layui-btn layui-btn-danger del-menu">删除菜单</button>
+</div>
+</script>
+<script>
+layui.use('wechatMenu', layui.factory('wechatMenu'));
+</script>

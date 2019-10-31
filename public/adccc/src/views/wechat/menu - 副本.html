@@ -1,0 +1,429 @@
+
+<script type="text/html" template>
+<style>
+    .menu-box {
+      display: flex;
+      margin-left: 100px;
+    }
+    .wx-btn {
+        padding: 30px;
+        text-align: center;
+    }
+    .phone {
+        background-color: #ccc;
+        width: 294px;
+        height: 580px;
+        position: relative;
+        border:1px solid #f1f1f1;
+        background: url({{ layui.setter.base }}style/images/bg_mobile_head_default46c7e6.png) no-repeat;
+        background-size:100%;
+        background-color: #f1f1f1;
+    }
+    .phone-footer {
+        background: url({{ layui.setter.base }}style/images/bg_mobile_foot_default46c7e6.png) no-repeat;
+        height: 50px;
+        width: 250px;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        padding-left: 44px;
+        background-color: #fff;
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Chrome/Safari/Opera */
+        -khtml-user-select: none; /* Konqueror */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+    }
+    .menus {
+        cursor: pointer;
+        flex:1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #f1f1f1;
+        color: #888;
+        position: relative;
+        box-sizing: border-box;
+    }
+    .menus.cur {
+      color: #42a047;
+      border:1px solid #42a047;
+    }
+    .addsubmenu {
+      position: absolute;
+      top: -68px;
+      border:1px solid #ccc;
+      width: 100px;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      color: #888;
+    }
+    .addsubmenu ul {
+        width: 100%;
+    }
+    .addsubmenu li {
+        line-height: 48px;
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        text-align: center;
+        white-space:nowrap;
+        overflow:hidden;
+        font-size: 13px;
+        box-sizing: border-box;
+    }
+    .addsubmenu li:last-child {
+        border-bottom: none;
+    }
+    .addsubmenu li:hover {
+      background-color: #f1f1f1;
+    }
+    .addsubmenu li.cur {
+      border:1px solid #42a047;
+    }
+
+    .operation {
+      margin-left:40px;
+      flex:1;
+      display: none;
+    }
+    .json-data {
+      display: none;
+      margin-left:40px;
+      flex:1;
+    }
+    .layui-card {
+        box-shadow: none;
+        border:1px solid #dedede;
+    }
+    .operation-card {
+      height: 580px;
+      margin-bottom:0;
+      background: #f4f5f9;
+    }
+    .json-data-content {
+      height: 580px;
+      width: 100%;
+      border: 1px solid #ccc;
+    }
+    .operation-content {
+      border:1px solid #dedede;
+      height: 300px;
+    }
+    .operation-content .layui-form-item {
+      display: none;
+    }
+    .tip {
+      padding: 6px 49px;
+    font-size: 12px;
+    color: #888;
+    }
+
+  </style>
+</script>
+
+<div class="layui-card layadmin-header">
+    <div class="layui-breadcrumb" lay-filter="breadcrumb">
+        <a lay-href="">
+            主页
+        </a>
+        <a>
+            <cite>
+                微信公众号
+            </cite>
+        </a>
+        <a>
+            <cite>
+                菜单管理
+            </cite>
+        </a>
+    </div>
+</div>
+<div class="layui-fluid">
+    <div class="layui-card layui-anim layui-anim-upbit">
+        <div class="layui-card-body layui-row">
+            <div class="menu-box">
+                <div class="wx-box">
+                    <div class="phone">
+                        <div class="phone-header"></div>
+                        <div class="phone-footer">
+                            <div class="menus menu-add cur">
+                              <i class="layui-icon layui-icon-add-1"></i>
+                              添加菜单
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wx-btn">
+                      <button class="layui-btn layui-btn-primary">菜单排序</button>
+                      <button class="layui-btn layui-btn show-json" type="button">查看json</button>
+                    </div>
+                </div>
+                <div class="operation">
+                    <div class="layui-card operation-card layui-form" lay-filter="operation-form">
+                      <div class="layui-card-header">菜单名称</div>
+                      <div class="layui-card-body">
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">菜单名称</label>
+                            <div class="layui-input-block" style="width: 200px;">
+                              <input type="text" name="name" lay-verify="required" autocomplete="off" class="layui-input menu-name">
+                              字数不超过4个汉字或8个字母
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">菜单内容</label>
+                            <div class="layui-input-block menu-content-radios">
+                                <input type="radio" name="menu-type" value="media_id" title="发送消息" checked lay-filter="menu-type">
+                                <input type="radio" name="menu-type" value="view_limited" title="跳转公证号文章" lay-filter="menu-type">
+                                <input type="radio" name="menu-type" value="view" title="跳转H5" lay-filter="menu-type">
+                                <input type="radio" name="menu-type" value="miniprogram" title="跳转小程序" lay-filter="menu-type">
+                            </div>
+                        </div>
+                        
+                        <div class="layui-form-item operation-content">
+
+                            <div class="layui-form-item" style="display: block;">
+                              <div class="tip">
+                                订阅者点击该子菜单会向服务器发送key
+                              </div>
+                              <label class="layui-form-label">key</label>
+                              <div class="layui-input-block" style="width: 30%;">
+                                  <input type="text" name="key" lay-verify="required" autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+
+                            <div class="layui-form-item" >
+                              <div class="tip">
+                                订阅者点击该子菜单会跳转到以下文章
+                              </div>
+                              <label class="layui-form-label">media_id</label>
+                              <div class="layui-input-block" style="width: 30%;">
+                                  <input type="text" name="media_id" lay-verify="required" autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+                              
+                            <div class="layui-form-item">
+                              <div class="tip">
+                                订阅者点击该子菜单会跳到以下链接
+                              </div>
+                              <label class="layui-form-label">H5地址</label>
+                              <div class="layui-input-block" style="width: 80%;">
+                                  <input type="text" name="url" lay-verify="required" autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+
+                            <div class="layui-form-item">
+                              <div class="tip">
+                                订阅者点击该子菜单会跳到以下小程序
+                              </div>
+                              <label class="layui-form-label">小程序appid</label>
+                              <div class="layui-input-block" style="width: 30%;">
+                                  <input type="text" name="appid" lay-verify="required" autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+                        </div>
+
+
+                      </div>
+                    </div>
+                    <div class="wx-btn" style="text-align: left;margin-left: 200px;">
+                      <button class="layui-btn layui-btn">保存并发布</button>
+                      <button class="layui-btn layui-btn-danger">删除菜单</button>
+                    </div>
+                </div>
+
+                <div class="json-data">
+                    <div class="layui-card json-data-content layui-form">
+                        <textarea class="json-data-content"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script id="submenu-tpl" type="text/html">
+    <div class="addsubmenu" style="width: {{d.width}}px;top:-{{d.top}}px;">
+        <ul>
+      {{#     if(d.subLen<5) {                                                       }}
+          <li class="add-sub-menu"><i class="layui-icon layui-icon-add-1"></i></li>
+      {{#     }                                              }}
+      {{#   layui.each(d.sub_button, function(index, item){                                  }}
+            <li>子菜单名称</li>
+      {{#   })                                                                            }}
+        </ul>
+        <i class="arrow arrow_out"></i>
+        <i class="arrow arrow_in"></i>
+    </div>
+</script>
+<!-- bottom: {{item.sub_button?(item.sub_button.length+1)*51:60}}px; -->
+<script>
+layui.use(['admin', 'form','myUtils','laytpl'], function(){
+  var $ = layui.$;
+  var myUtils = layui.myUtils;
+
+  var MENUS = layui.data('wechat_menu')['menu']?layui.data('wechat_menu')['menu']:[];
+
+  //初始化菜单
+  ;(function () {
+      if(MENUS.length!=0){
+          $('.phone-footer').empty();
+
+          $.each(MENUS, function(index, val) {
+              $('.phone-footer').append('<div class="menus">'+val.name+'</div>');
+          });
+
+          if(MENUS.length!=3){
+              $('.phone-footer').append('<div class="menus menu-add cur">\
+                              <i class="layui-icon layui-icon-add-1"></i>\
+                            </div>');
+          }
+      }
+  })()
+
+  //查看json
+  $('.show-json').click(function(event) {
+    $('.json-data-content').val(JSON.stringify(MENUS));
+    layui.admin.req({
+      url:'wechat/menu/JsonPretiy',
+      data:{button:MENUS},
+      type:'post',
+      done:function (res) {
+        $('.json-data-content').val(res.data);
+        $('.json-data').show();
+        $('.operation').hide();
+      }
+    })
+  });
+
+  //点击菜单内容rediao
+  layui.form.on("radio(menu-type)", function (data) {
+    var index = $('.operation').attr('data-menuid');
+      switch(data.value) {
+          case 'media_id':
+              $('.operation-content').find('.layui-form-item').eq(0).show(0).siblings().hide();
+              break;
+          case 'view_limited':
+              $('.operation-content').find('.layui-form-item').eq(1).show(0).siblings().hide();
+              break;
+          case 'view':
+              $('.operation-content').find('.layui-form-item').eq(2).show(0).siblings().hide();
+              break;
+          case 'miniprogram':
+              $('.operation-content').find('.layui-form-item').eq(3).show(0).siblings().hide();
+              break;
+      }
+      MENUS[index]['type'] = data.value;
+      layui.data('wechat_menu', {key:'menu', value: MENUS});
+  });
+
+  //修改value
+  $('.operation-content .layui-input').keyup(function(event) {
+      var index = $('.operation').attr('data-menuid');
+      var name = $(this).attr('name');
+      MENUS[index][name] = $(this).val();
+      layui.data('wechat_menu', {key:'menu', value: MENUS});
+  });
+
+  //点击添加菜单
+  $('.menu-add').click(function(event) {
+      event.preventDefault();
+      $('.phone-footer').children('.cur').removeClass('cur');
+      $(this).before('<div class="menus cur">菜单名称</div>');
+      $(this).html('<i class="layui-icon layui-icon-add-1"></i>').removeClass('cur');
+      var len = $('.phone-footer').children('.menus').length;
+      var txt = $.trim($(this).prev('.menus').text());
+      $('.operation').show().find('.menu-name').val(txt);
+      $('.operation').attr('data-menuid', $(this).prev('.menus').index());
+      MENUS.push({"name":'菜单名称', "type":"click", "key":'menu_click_'+(len-1)});
+      layui.data('wechat_menu', {key:'menu', value: MENUS});
+
+      if(len==4){
+        $(this).remove();
+      }
+      addSubMenus(len-2);
+  });
+
+  //点击菜单
+  $('body').on('click', '.menus', function(event) {
+    event.preventDefault();
+    var index = $(this).index();
+    if($(this).hasClass('menu-add')){
+        return false;
+    }
+    $(this).siblings('.cur').removeClass('cur');
+    $(this).addClass('cur');
+    addSubMenus(index);
+    $('.operation').show();
+    setOperation(index);
+  });
+
+  function setOperation(index) {
+      var data = MENUS[index];
+      $('.operation').attr('data-menuid', index);
+      layui.form.val('operation-form', {
+          name: MENUS[index].name,
+          "menu-type":MENUS[index].type
+      })
+  }
+
+  //菜单名称输入文字
+  $('.operation').find('.menu-name').keyup(function(event) {
+      var index = $('.operation').attr('data-menuid');
+      console.log(index);
+      var val = $(this).val();
+      $('.phone-footer .menus').eq(index).text(val);
+      MENUS[index].name = val;
+      layui.data('wechat_menu', {key:'menu', value: MENUS});
+  });
+
+  //添加子菜单
+  $('body').on('click', '.add-sub-menu', function(event) {
+      event.stopPropagation();
+      $(this).after('<li>子菜单名称</li>');
+      var len = $(this).siblings('li').length;
+
+      var index = $(this).parents('.menus').index();
+      if(MENUS[index]['sub_button']===undefined){
+          MENUS[index] = { name:MENUS[index].name, sub_button:[] }
+      }
+      MENUS[index]['sub_button'].push({name:'子菜单名称'});
+      layui.data('wechat_menu', {key:'menu', value: MENUS});
+
+      if(len==5){
+        $(this).remove();
+        return false;
+      }
+      var _top = -(len+1)*48-20+1;
+      $(this).parents('.addsubmenu').css('top', _top+'px');
+
+
+      
+  });
+
+  //点击子菜单
+  $('body').on('click', '.addsubmenu li', function(event) {
+    event.stopPropagation();
+    if($(this).hasClass('add-sub-menu')){
+       return false;
+    }
+    $(this).addClass('cur').siblings().removeClass('cur');
+  });
+
+  function addSubMenus(index) {
+      $('.phone-footer .addsubmenu').remove();
+      var $cur = $('.phone-footer').find('.cur');
+      var data = $.extend(true, {}, MENUS[index]); 
+      data.width = $cur.width();
+      data.subLen = data.sub_button?data.sub_button.length:0;
+      data.top = data.subLen<5?(data.subLen+1)*48+20-1:(data.subLen)*48+20-1;
+      layui.laytpl($('#submenu-tpl').html()).render(data, function(html){
+          $cur.append(html);
+      });
+      $('.json-data').hide();
+  }
+      
+});
+</script>

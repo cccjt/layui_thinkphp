@@ -1,0 +1,140 @@
+    .menu-box {
+      display: flex;
+      margin-left: 100px;
+    }
+    .wx-btn {
+        padding: 30px;
+        text-align: center;
+    }
+    .phone {
+        background-color: #ccc;
+        height: 580px;
+        border:1px solid #f1f1f1;
+        background: url(./images/bg_mobile_head_default46c7e6.png) no-repeat;
+        background-size:100%;
+        background-color: #f1f1f1;
+        display: flex;
+    }
+    .phone-header {
+        height: 100%;
+    }
+    .phone-footer {
+        background: url(./images/bg_mobile_foot_default46c7e6.png) no-repeat;
+        height: 50px;
+        width: 250px;
+        padding-left: 44px;
+        background-color: #fff;
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Chrome/Safari/Opera */
+        -khtml-user-select: none; /* Konqueror */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        align-self: flex-end;
+    }
+    .phone-menu-box {
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+    .menus {
+        cursor: pointer;
+        border: 1px solid #d6d6d6;
+        color: #888;
+        flex:1;
+        box-sizing: border-box;
+        line-height: 48px;
+        text-align: center;
+        position: relative;
+        font-size: 13px;
+    }
+    .menus.cur {
+      color: #42a047;
+      border:1px solid #42a047;
+    }
+    .addsubmenu {
+      position: absolute;
+      top: -68px;
+      border:1px solid #ccc;
+      width: 100px;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      color: #888;
+      box-sizing: border-box;
+    }
+    .addsubmenu ul {
+        width: 100%;
+    }
+    .addsubmenu li {
+        line-height: 48px;
+        height: 48px;
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        text-align: center;
+        white-space:nowrap;
+        overflow:hidden;
+        font-size: 13px;
+        box-sizing: border-box;
+    }
+    .addsubmenu li:last-child {
+        border-bottom: none;
+    }
+    .addsubmenu li:hover {
+      background-color: #f1f1f1;
+    }
+    .addsubmenu li.cur {
+      border:1px solid #42a047;
+    }
+
+    #operation-box {
+      margin-left:40px;
+      flex:1;
+    }
+    .json-data {
+      display: none;
+      margin-left:40px;
+      flex:1;
+    }
+    .layui-card {
+        box-shadow: none;
+        border:1px solid #dedede;
+    }
+    .operation-card {
+      height: 580px;
+      margin-bottom:0;
+      background: #f4f5f9;
+    }
+    .json-data-content {
+      height: 580px;
+      width: 100%;
+      border: 1px solid #ccc;
+    }
+    .operation-content {
+      border:1px solid #dedede;
+      height: 300px;
+    }
+    .tip {
+      padding: 6px 49px;
+    font-size: 12px;
+    color: #888;
+    }
+    .cur>.arrow_out {
+      border-top-color: #42a047;
+    }
+    .layui-input-block {
+    margin-left: 120px;}
+    .layui-form-label { width: 90px;}
+    .layui-card-header { border-bottom: 1px solid #dedede; margin-bottom: 36px;}
+    .layui-form-radio {line-height: 24px;}
+    .aliicon-caidan1 {cursor: move;}
+
+    .move-placeholder { 
+      flex:1; 
+      border:2px inset #ccc;
+      background: #888;
+    }
+    .readmove {
+      border:1px solid red;
+    }

@@ -1,0 +1,170 @@
+<div class="layui-card layadmin-header">
+    <div class="layui-breadcrumb" lay-filter="breadcrumb">
+        <a lay-href="">
+            主页
+        </a>
+        <a>
+            <cite>
+                微信公众号
+            </cite>
+        </a>
+        <a>
+            <cite>
+                素材管理(文章列表)
+            </cite>
+        </a>
+        <a>
+            <cite>
+                编辑文章
+            </cite>
+        </a>
+    </div>
+</div>
+<div class="layui-fluid">
+    <div class="layui-row layui-card">
+        <div class="layui-card-body">
+            <form class="layui-form" lay-filter="article-form">
+                <div class="layui-form-item layui-col-xs6">
+                    <label class="layui-form-label">
+                        文章标题
+                    </label>
+                    <div class="layui-input-block">
+                        <input type="text" name="title" required lay-verify="required" value="" class="layui-input"/>
+                    </div>
+                </div>
+                <div class="layui-form-item layui-col-xs6">
+                    <label class="layui-form-label">
+                        打开评论
+                    </label>
+                    <div class="layui-input-block">
+                        <input type="checkbox" name="need_open_comment" checked value="1" lay-skin="switch" lay-text="打开评论|关闭评论"/>
+                    </div>
+                </div>
+                <div class="layui-form-item layui-col-xs6">
+                    <label class="layui-form-label">
+                        原文地址
+                    </label>
+                    <div class="layui-input-block">
+                        <input type="text" name="content_source_url" value="" class="layui-input"/>
+                    </div>
+                </div>
+                <div class="layui-form-item layui-col-xs6">
+                    <label class="layui-form-label">
+                        摘要
+                    </label>
+                    <div class="layui-input-block">
+                        <input type="text" name="digest" value="" class="layui-input"/>
+                    </div>
+                </div>
+                <div class="layui-form-item layui-col-xs11">
+                    <script class="layui-col-xs12" id="article-textarea" name="content"></script>
+                </div>
+                <input type="hidden" name="action" value=""/>
+                <input type="hidden" name="id" value=""/>
+                <div class="layui-form-item layui-col-xs-offset3">
+                    <div class="layui-input-block">
+                        <button class="layui-btn" type="button" lay-submit lay-filter="article-save">
+                            保存
+                        </button>
+                        <button class="layui-btn layui-btn-normal" lay-submit type="button" lay-filter="article-save" data-release="1">
+                            保存并发布
+                        </button>
+                        <button class="layui-btn layui-btn-primary" type="button" lay-href="wechat/article">
+                            返回
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+layui.use(['admin', 'table','myUtils', 'ueditor'], function(){
+  var $ = layui.$
+  ,admin = layui.admin
+  ,tableHelper = layui.myUtils.tableHelper
+  ,ueditor = layui.ueditor
+  ,form = layui.form;
+
+
+//初始化ueditor
+UE.delEditor('article-textarea');
+var ieditor = UE.getEditor('article-textarea', {
+    autoHeightEnabled: true,
+    initialFrameHeight:500,
+    serverUrl: layui.setter.apiUrl+'wechat/article/ueditUpload'
+});
+
+//修改
+if(layui.router().search.id){
+    admin.req({
+        url:'wechat/article/index',
+        data:{'id':layui.router().search.id},
+        done:function (res) {
+            //表单初始赋值
+            form.val('article-form', {
+              "title": res.data.title,
+              "need_open_comment": res.data.need_open_comment==1,
+              "content_source_url": res.data.content_source_url,
+              "digest": res.data.content_source_url,
+              "id":res.data.id,
+              'action': 'edit'
+            })
+            ieditor.ready(function() {
+                ieditor.setContent(res.data.content);
+            });
+        }
+    })
+}else{
+   form.val('article-form', {
+      "need_open_comment": true,
+      'action': 'add'
+    }) 
+}
+
+
+
+layui.form.on('submit(article-save)', function(data){
+    var field = data.field;
+    field.need_open_comment = field.need_open_comment || 0;
+
+    if($(this).data('release')==1){
+        layer.confirm('确定发布文章？', {
+           btn: ['发布','取消']
+        }, function(){
+            field.release = 1;
+            doSave(field);
+        }, function (index) {
+            layer.close(index);
+        });
+        return false;
+    }else{
+        doSave(field);
+    }
+    
+    
+});
+
+function doSave(field) {
+    admin.req({
+        url: 'wechat/article/edit',
+        type:'post',
+        data:field,
+        done:function(data){
+            if(data.status=='success'){
+                layui.layer.msg(data.msg, {icon: 1,time: 1000 }, function () {
+                    location.hash = '/wechat/editarticle/id='+data.data;
+                });
+            }else{
+                layui.layer.msg(data.msg, {icon: 2,time: 2000 });
+            }
+        }
+    })
+    return false;
+}
+
+
+$('.layui-nav').find('dd[data-jump="wechat/article"]').addClass('layui-this');
+$('.layui-nav').find('dd[data-jump="wechat/article"]').parent('dl').parent('li').addClass('layui-nav-itemed');   
+});
+</script>

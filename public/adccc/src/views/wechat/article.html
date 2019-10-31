@@ -1,0 +1,118 @@
+<div class="layui-card layadmin-header">
+    <div class="layui-breadcrumb" lay-filter="breadcrumb">
+        <a lay-href="">
+            主页
+        </a>
+        <a>
+            <cite>
+                微信公众号
+            </cite>
+        </a>
+        <a>
+            <cite>
+                素材管理(文章列表)
+            </cite>
+        </a>
+    </div>
+</div>
+<div class="layui-fluid">
+
+    <div class="layui-card layui-anim layui-anim-upbit">
+        <div class="layui-card-body ">
+          <div id="layui-table-toolbar" lay-filter="layui-table-toolbar">
+               <button class="layui-btn" lay-href="wechat/editarticle/action=add">
+                  <i class="layui-icon layui-icon-add-circle-fine"></i>
+                  添加文章
+              </button>
+          </div>
+  
+          <table id="layui-table" lay-filter="layui-table-filter"></table>
+            
+          <script type="text/html" id="table-edit-btns">
+                <a class="layui-btn layui-btn-normal layui-btn-xs" lay-event="edit"><i class="layui-icon layui-icon-edit"></i>编辑</a>
+                <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del"><i class="layui-icon layui-icon-delete"></i>删除</a>
+          </script>
+
+          <script type="text/html" id="need-open-comment-switchTpl">
+            <input type="checkbox" lay-skin="switch" lay-text="是|否" lay-filter="article-switchTpl"
+             value="{{ d.id }}" data-col="need_open_comment" {{ d.need_open_comment == 1 ? 'checked' : '' }}>
+          </script>
+
+          <script type="text/html" id="release-switchTpl">
+            <input type="checkbox" lay-skin="switch" lay-text="已发布 |未发布" lay-filter="article-switchTpl"
+             value="{{ d.id }}" data-col="release" {{ d.release == 1 ? 'checked' : '' }}>
+          </script>
+        </div>
+    </div>
+</div>
+
+<script>
+layui.use(['admin', 'table','myUtils'], function(){
+  var $ = layui.$
+  ,admin = layui.admin
+  ,layedit = layui.layedit
+  ,tableHelper = layui.myUtils.tableHelper
+  ,form = layui.form;
+
+  form.on('switch(article-switchTpl)', function(obj){
+    var data = { id:$(this).val(), action:'edit' };
+    data[$(this).data('col')] = $(this).prop('checked')?1:0;
+    admin.req({
+       url:'wechat/article/edit',
+       data:data,
+       type:'post',
+       done:function (res) {
+         layui.myUtils.Msg(res);
+       }
+    })
+  });
+  
+  var tableInit = tableHelper({cols: [[
+      {field: 'id', width: 80, title: 'ID', sort: true, readonly:true},
+      {field: 'sort', width: 80, title: '排序', sort: true, readonly:true},
+      {field: 'title', title: '标题'},
+      {field: 'thumb_media', width: 100, title: '封面'},
+      {field: 'digest', title: '摘要'},
+      {field: 'content_source_url', title: '原文地址'},
+      {field: 'need_open_comment',  width: 100, title: '是否评论', templet:'#need-open-comment-switchTpl'},
+      {field: 'release',  width: 100, title: '已发布', templet:'#release-switchTpl'},
+      {field: 'creat_at',  width: 180, title: '创建时间'},
+      {field: 'update_by',  width: 180, title: '修改时间'},
+      {field: 'creat_by',  width: 80, title: '创建人'},
+      {title: '操作', align: 'center', width:180, fixed: 'right', toolbar: '#table-edit-btns'}
+    ]],
+      url:'/admin/wechat/article/index',
+       done: function(res, pageCur, total){
+             console.log(res);
+       },
+       active:{
+           'edit':function(){
+              location.hash = '/wechat/editarticle/id='+this.id;
+           },
+           'del':function (d) {
+              var id = this.id;
+              layer.confirm('确定删除ID: '+id+' ?', {icon: 3, title:''}, function(index){
+                layui.admin.req({
+                   url:'/wechat/article/edit',
+                   type:'post',
+                   data:{'id':id, 'action':'del'},
+                   done:function (data) {
+                      console.log(data);
+                      if(data.status!='error'){
+                          tableInit.reload();
+                          layui.layer.msg(data.msg, {icon: 1,time: 1000 }, function(){
+                          });
+                      }else{
+                          layui.layer.msg(data.msg, {icon: 2,time: 2000 });
+                      }
+                   }
+                })
+                layer.close(index);
+              });   
+           }
+       }
+    });
+    
+});
+</script>
+

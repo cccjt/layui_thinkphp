@@ -1,0 +1,70 @@
+<style>
+</style>
+
+<div class="layui-card layadmin-header">
+    <div class="layui-breadcrumb" lay-filter="breadcrumb">
+        <a lay-href="">主页</a>
+        <a><cite>微信公众号</cite></a>
+        <a><cite>回复管理</cite></a>
+    </div>
+</div>
+
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-body" pad15>
+                    <div class="layui-card-body">
+                      <div class="layui-tab">
+                        <ul class="layui-tab-title">
+                          <li class="layui-this">默认回复</li>
+                          <li>关注回复</li>
+                          <li>关键字回复</li>
+                        </ul>
+                        <div class="layui-tab-content">
+                          <div class="layui-tab-item layui-show">
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    layui.data.done = function(d) {
+        layui.use(['form', 'upload'], function() {
+            var $ = layui.$,
+                upload = layui.upload;
+            $('#logosrc').hover(function() {
+                $('.logosrc-title').show(0);
+            }, function() {
+                $('.logosrc-title').hide(0);
+            })
+            //上传Logo
+            upload.render({
+                url: layui.setter.apiUrl + 'system/SiteConfig/upLoadLogo/',
+                elem: '#logosrc',
+                acceptMime: 'image/*',
+                field: 'image',
+                accept: "images",
+                done: function(res) {
+                    if (res.data.status == 0) {
+                        $('.logourl-input').val(res.data.file_name);
+                        $('#logosrc').attr('src', res.data.img_url);
+                    } else {
+                        layer.msg(res.msg, {
+                            icon: 5
+                        });
+                    }
+                }
+            });
+
+        });
+    }
+</script>

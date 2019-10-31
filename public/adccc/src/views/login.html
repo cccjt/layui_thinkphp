@@ -1,0 +1,99 @@
+<script type="text/html" template>
+    <link rel="stylesheet" href="{{ layui.setter.base }}style/login.css?v={{ layui.admin.v }}-1" media="all">
+</script>
+
+<div class="layadmin-user-login layadmin-user-display-show" id="LAY-user-login" style="display: none;">
+
+    <div class="layadmin-user-login-main login">
+        <div class="message sitename">登录</div>
+        <div id="darkbannerwrap"></div>
+
+        <form method="post" class="layadmin-user-login-body layui-form">
+            <div class="layui-form-item">
+                <label class="layadmin-user-login-icon layui-icon layui-icon-username" for="LAY-user-login-username"></label>
+                <input name="username" placeholder="用户名" type="text" lay-verify="phone" lay-vertype="tips" class="layui-input"
+                    value="13302481400">
+            </div>
+            <div class="layui-form-item">
+                <label class="layadmin-user-login-icon layui-icon layui-icon-password" for="LAY-user-login-password"></label>
+                <input name="password" lay-verify="required" autocomplete="new-password" placeholder="密码" type="password" class="layui-input" >
+            </div>
+            <div class="layui-form-item verifycode">
+            </div>
+            <input class="loginin layui-btn" value="登 录" lay-submit lay-filter="LAY-user-login-submit" style="width:100%;"
+                type="submit">
+            <div>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+<script id="imgcode-tpl" type="text/html">
+    <input name="verifycode" lay-verify="required" placeholder="验证码"  type="text" class="layui-input">
+  <img src="{{d.apiUrl}}user/GraphicVerificationCode?{{Math.random()}}">
+</script>
+
+<script>
+    layui.use(['admin', 'form', 'user', 'myUtils'], function() {
+        var $ = layui.$,
+            setter = layui.setter,
+            router = layui.router(),
+            search = router.search,
+            myUtils = layui.myUtils;
+
+        layui.form.render();
+        layui.data(setter.tableName, null);
+
+        $('.layui-form').on('click', '.verifycode img', function() {
+            $(this).attr('src', $(this).attr('src') + Math.random());
+        })
+
+        //获取系统公共参数
+        layui.admin.req({
+            url: 'Login/getPublicConfig',
+            type: 'get',
+            data: {},
+            done: function(res) {
+                setter.webConfig = res.data;
+                $('.sitename').text(setter.webConfig.managename);
+                myUtils.cache('config', res.data)
+            }
+        });
+
+        //提交
+        layui.form.on('submit(LAY-user-login-submit)', function(obj) {
+            postData = obj.field;
+            postData['local_session'] = setter.webConfig.local_session;
+            //请求登入接口
+            layui.admin.req({
+                url: 'Login/loginIn', //实际使用请改成服务端真实接口
+                data: postData,
+                type: 'POST',
+                done: function(res) {
+                    if (!res.data.islogin) {
+                        if (res.data.requiredVerify) {
+                            myUtils.setTpl('#imgcode-tpl', '.verifycode', setter);
+                        }
+                        layer.msg(res.msg, {
+                            offset: '15px',
+                            icon: 2,
+                            time: 1000
+                        });
+                    } else {
+                        myUtils.cache(setter.request.tokenName, res.data.token);
+                        myUtils.cache('session', res.data);
+                          layer.msg(res.msg, {
+                            offset: '15px'
+                            ,icon: 1
+                            ,time: 1000
+                          });
+                          location.hash = search.redirect ? decodeURIComponent(search.redirect) : '/index';
+                    }
+                }
+            });
+            return false;
+        });
+
+    });
+</script>
