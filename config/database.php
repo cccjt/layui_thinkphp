@@ -12,18 +12,7 @@
 use think\facade\Env;
 
 return [
-    // 数据库类型
-    'type'            => 'mysql',
-    // 服务器地址
-    'hostname'        => 'ycwlsoft.com',
-    // 数据库名
-    'database'        => 'layuitp',
-    // 用户名
-    'username'        => 'layuitp',
-    // 密码
-    'password'        => 'LayuiTpCCC123$$$',
-    // 端口
-    'hostport'        => 13306,
+    
     // 连接dsn
     'dsn'             => '',
     // 数据库连接参数
